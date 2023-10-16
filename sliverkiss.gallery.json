@@ -39,7 +39,7 @@
             "config": "30 5 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/ty.js, tag=天翼云盘, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tyyp.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/tyyp.conf, tag=天翼云盘获取token"
         },{
-            "config": "30 10 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/macat.js, tag=macat签到, https://raw.githubusercontent.com/Orz-3/mini/master/Color/Skicat.png, enabled=false",
+            "config": "30 10 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/macat.js, tag=macat签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Skicat.png, enabled=false",
         },{
             "config": "0 10 * * * https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js, tag=霸王茶姬小程序签到, img-url=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/bwcj.conf, tag=霸王茶姬获取token"
