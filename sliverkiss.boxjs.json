@@ -1,0 +1,30 @@
+{
+  "id": "sliverkiss.sub",
+  "name": "sliverkiss脚本订阅",
+  "author": "@sliverkiss",
+  "icon": "https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/icon/sliverkiss.png",
+  "repo": "",
+  "apps": [
+    {
+      "id": "iios",
+      "name": "iios",
+      "keys": ["iios_data"],
+      "descs_html": ["将脚本拉取到本地->打开网站随便逛逛，若提示获取cookie成功则可以使用该脚本"],
+      "settings": [{
+        "id": "iios_data",
+        "name": "iios_data",
+        "val": "",
+        "type": "textarea",
+        "placeholder": "",
+        "desc": "抓包www.iios.fun域名下的Authorization，填写到iios_data,多账号用@分割"
+      }],
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/icon/Iios.png",
+        "https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/icon/Iios.png"
+        ]
+    } 
+  ]
+}
