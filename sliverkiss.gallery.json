@@ -61,6 +61,9 @@
         },{
             "config": "30 0 7 * * * https://raw.githubusercontent.com/Raphael689/RW/master/Scripts/tls.js, tag=特仑苏官方商城,img-url=https://raw.githubusercontent.com/Raphael689/RW/master/iCons/tls.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/tlc.conf, tag=特仑苏获取token"
+        },{
+            "config": "30 0 6 * * * https://raw.githubusercontent.com/Raphael689/RW/master/Scripts/yqslhy.js, tag=元气森林会员中心,img-url=https://raw.githubusercontent.com/Raphael689/RW/master/iCons/yqsl.png, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/yqsl.conf, tag=元气森林会员中心获取token"
         },
         
     ]
