@@ -1,0 +1,12 @@
+# @name 哈啰单车奖励金签到所需参数获取
+# @version v1.1.0
+# @description 用于 quantumultx 获取哈啰单车奖励金签到任务所需各项参数的重写文件
+# @author Sliverkiss
+# @homepage https://github.com/Sliverkiss/QuantumultX
+# @license MIT
+
+# mitm
+hostname = api.hellobike.com
+
+# 获取哈啰单车奖励金签到需要的各项参数
+^https:\/\/api\.hellobike\.com\/api\?user\.taurus\.pointInfo url script-request-body https://gist.githubusercontent.com/Sliverkiss/4e0081f7b18a2cea9dbdf13545e60885/raw/d53857028ced29aed98affb5d4a602b2a8bf94cf/hldc.js
