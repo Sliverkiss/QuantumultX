@@ -23,6 +23,9 @@
         },{
             "config": "7 0 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/yuchenios.js, tag=雨晨ios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/yuchenios.conf, tag=雨晨ios获取token"
+        },{
+            "config": "8 0 * * * https://gist.githubusercontent.com/Sliverkiss/2e2093bfd5f524d58c8e90fed9beacfd/raw/e399523e428f3c173ec4b95c892725006c3128ff/adjd.js, tag=亚朵酒店签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Adjd.png, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/adjd.conf, tag=亚朵酒店获取token"
         },
         
     ]
