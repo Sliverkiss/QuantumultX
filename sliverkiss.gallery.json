@@ -26,6 +26,9 @@
         },{
             "config": "8 0 * * * https://gist.githubusercontent.com/Sliverkiss/2e2093bfd5f524d58c8e90fed9beacfd/raw/e399523e428f3c173ec4b95c892725006c3128ff/adjd.js, tag=亚朵酒店签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Adjd.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/adjd.conf, tag=亚朵酒店获取token"
+        },{
+            "config": "9 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/wbzj.js, tag=腕表之家签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wbzj.png, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/wbzj.conf, tag=腕表之家获取token"
         },
         
     ]
