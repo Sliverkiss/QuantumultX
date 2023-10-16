@@ -35,6 +35,9 @@
         },{
             "config": "11 7 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/acfun.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/acfun.png, tag=AcFun签到, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/acfun.conf, tag=AcFun获取token"
+        },{
+            "config": "30 5 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/ty.js, tag=天翼云盘, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/tyyp.conf, tag=天翼云盘获取token"
         },
         
     ]
