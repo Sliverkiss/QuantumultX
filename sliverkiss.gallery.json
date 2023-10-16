@@ -12,12 +12,15 @@
             "config": "3 0 * * * https://gist.githubusercontent.com/Sliverkiss/9b08002724c157c876a0c39ccea88df9/raw/9559eefc24e3c8446cc031d7ef4c88506ec7063b/iios.js, tag=iios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iios.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/iios.conf, tag=iios获取token"
         },{
-            "config": "2 0 * * * https://raw.githubusercontent.com/kayanouriko/quantumultx-mihoyobbs-auto-helper/main/src/mihoyobbs-auto-helper.js, tag=米游社小助手, img-url=https://raw.githubusercontent.com/kayanouriko/quantumultx-mihoyobbs-auto-helper/main/assets/gallery-icon.png, enabled=false",
+            "config": "5 0 * * * https://raw.githubusercontent.com/kayanouriko/quantumultx-mihoyobbs-auto-helper/main/src/mihoyobbs-auto-helper.js, tag=米游社小助手, img-url=https://raw.githubusercontent.com/kayanouriko/quantumultx-mihoyobbs-auto-helper/main/assets/gallery-icon.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/kayanouriko/quantumultx-mihoyobbs-auto-helper/main/task/mihoyobbs.conf, tag=配置米游社小助手"
         },{
             "config": "0 6 * * * https://raw.githubusercontent.com/kayanouriko/quantumultx-skland-auto-sign/main/src/skland-auto-sign.js, tag=森空岛小助手, img-url=https://raw.githubusercontent.com/kayanouriko/quantumultx-skland-auto-sign/main/assets/gallery-icon.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/kayanouriko/quantumultx-skland-auto-sign/main/task/skland.conf, tag=配置森空岛小助手"
-        }
+        }{
+            "config": "4 0 * * * https://gist.githubusercontent.com/Sliverkiss/93846b59f946ba71133b53d8f8cea33e/raw/4d7a257888fe89b0374413361b580ec7eb76a42c/sxios.js, tag=松鼠ios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Firework.png, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/sxios.conf, tag=松鼠ios获取token"
+        },
         
     ]
 }
