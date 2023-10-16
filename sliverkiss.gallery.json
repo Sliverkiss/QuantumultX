@@ -40,7 +40,6 @@
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/tyyp.conf, tag=天翼云盘获取token"
         },{
             "config": "30 10 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/macat.js, tag=macat签到, https://raw.githubusercontent.com/Orz-3/mini/master/Color/Skicat.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/macat.conf, tag=macat获取token"
         },
         
     ]
