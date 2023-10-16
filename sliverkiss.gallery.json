@@ -46,6 +46,9 @@
         },{
             "config": "40 8 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js, tag=途虎养车积分签到, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/thyc.conf, tag=途虎获取token"
+        },{
+            "config": "16 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/xdm.js, tag=小豆苗app签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Xdm.png enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/xdm.conf, tag=小豆苗获取token"
         },
         
     ]
