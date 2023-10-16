@@ -52,6 +52,9 @@
         },{
             "config": "1 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/hzh.js, tag=华住会, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hzh.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/hzh.conf, tag=华住会获取token"
+        },{
+            "config": "15 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Jtc.png, tag=捷停车签到, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/jtc.conf, tag=捷停车获取token"
         }
         
     ]
