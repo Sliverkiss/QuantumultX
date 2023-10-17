@@ -70,6 +70,9 @@
         },{
             "config": "21 0 0 * * * https://gist.githubusercontent.com/Sliverkiss/4e0081f7b18a2cea9dbdf13545e60885/raw/d53857028ced29aed98affb5d4a602b2a8bf94cf/hldc.js, tag=哈啰单车奖励金签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hldc.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/hldc.conf, tag=哈啰单车获取token"
+        },{
+            "config": "25 1 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/zhixuan.js, tag=知轩藏书签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zxcs.png, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/zxcs.conf, tag=知轩藏书获取token"
         },
         
     ]
