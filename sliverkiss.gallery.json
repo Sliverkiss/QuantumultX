@@ -81,7 +81,7 @@
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/smzdm.conf, tag=什么值得买获取token"
         },{
             "config":"51 8,21 * * * https://raw.githubusercontent.com/leafTheFish/DeathNote/main/sfsy.js, tag=顺丰速运, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sfsy.png, enabled=false",
-            "addons":"https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/aliyun.conf,tag=顺丰速运获取Cookie"
+            "addons":"https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/sfsy.conf,tag=顺丰速运获取Cookie"
         },{
             "config":"30 10 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=true",
             "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.qxrewrite,tag=贴吧_获取Cookie"
