@@ -9,7 +9,7 @@
             "config": "2 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, tag=高德地图打车签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Gddt.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/gddt.conf, tag=高德地图获取token"
         },{
-            "config": "3 0 * * * https://gist.githubusercontent.com/Sliverkiss/9b08002724c157c876a0c39ccea88df9/raw/9559eefc24e3c8446cc031d7ef4c88506ec7063b/iios.js, tag=iios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iios.png, enabled=false",
+            "config": "3 0 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/iios.js, tag=iios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iios.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/iios.conf, tag=iios获取token"
         },{
             "config": "5 0 * * * https://raw.githubusercontent.com/kayanouriko/quantumultx-mihoyobbs-auto-helper/main/src/mihoyobbs-auto-helper.js, tag=米游社小助手, img-url=https://raw.githubusercontent.com/kayanouriko/quantumultx-mihoyobbs-auto-helper/main/assets/gallery-icon.png, enabled=false",
