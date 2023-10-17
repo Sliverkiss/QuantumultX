@@ -88,6 +88,11 @@
         },{
             "config":"15 7,15 * * * https://gist.githubusercontent.com/ddgksf2013/32b3d37d78433a34370cbfb69780160d/raw/glados.js, tag=Glados, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Glados.png, enabled=false",
             "addons":"https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/glados.conf,tag=Glados获取Cookie"
-        },
+        },{
+            "config":"6 3 * * * https://gist.githubusercontent.com/Sliverkiss/f06235486565837c18435b40d99229e5/raw/d3e51037e9d46f668161172c58a93319681b3382/hxsy.js, tag=花夏ios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxsy.png, enabled=false",
+            "addons":"https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/hxsy.conf,tag=花夏ios获取Cookie"
+        },{
+            "config":"6 3 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js, tag=网上国电费查询, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wsgw.png, enabled=false",
+        }
     ]
 }
