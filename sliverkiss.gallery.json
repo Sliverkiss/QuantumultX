@@ -91,7 +91,7 @@
         },{
             "config":"6 3 * * * https://gist.githubusercontent.com/Sliverkiss/f06235486565837c18435b40d99229e5/raw/d3e51037e9d46f668161172c58a93319681b3382/hxsy.js, tag=花夏ios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxsy.jpg, enabled=false",
         },{
-            "config":"6 3 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js, tag=网上国电费查询, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wsgw.jpg, enabled=false",
+            "config":"0 9 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js, tag=网上国电费查询, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wsgw.jpg, enabled=false",
         }
     ]
 }
