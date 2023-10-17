@@ -76,6 +76,9 @@
         },{
             "config": "0 7 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, tag=阿里云签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/aliyun.conf, tag=阿里云获取token"
+        },{
+            "config": "5 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买每日签到, img-url=https://raw.githubusercontent.com/Raphael689/RW/master/iCons/smzdma1.png, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/smzdm.conf, tag=什么值得买获取token"
         },
         
     ]
