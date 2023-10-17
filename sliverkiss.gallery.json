@@ -18,7 +18,7 @@
             "config": "0 6 * * * https://raw.githubusercontent.com/kayanouriko/quantumultx-skland-auto-sign/main/src/skland-auto-sign.js, tag=森空岛小助手, img-url=https://raw.githubusercontent.com/kayanouriko/quantumultx-skland-auto-sign/main/assets/gallery-icon.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/kayanouriko/quantumultx-skland-auto-sign/main/task/skland.conf, tag=配置森空岛小助手"
         },{
-            "config": "11 11 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/sxios.js, tag=松鼠ios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.png, enabled=false",
+            "config": "11 11 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/sxios.js, tag=松鼠ios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/sxios.conf, tag=松鼠ios获取token"
         },{
             "config": "7 0 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/yuchenios.js, tag=雨晨ios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png, enabled=false",
