@@ -51,6 +51,28 @@
        }  
       ]
     },{
+      "id": "nestle",
+      "name": "雀巢会员俱乐部",
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Nestle.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Nestle.png"
+      ],
+      "keys": ["qc_data"],
+      "descs_html": ["打开小程序->我的，若提示获取Cookie成功则可以使用该脚本"],
+      "settings": [
+       {
+        "id": "qc_data",
+        "name": "qc_data",
+        "val": "",
+        "type": "textarea",
+        "placeholder": "",
+        "desc": "打开小程序->我的，若提示获取Cookie成功则可以使用该脚本"
+       }  
+      ]
+    },{
             "id": "yuheng.95598",
             "name": "网上国网",
             "descs_html": [
