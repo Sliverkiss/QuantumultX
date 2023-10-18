@@ -103,6 +103,9 @@
         },{
             "config":"0 11 0,21 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zsfc/zsfc.shop.js, tag=掌飞购物, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zsfc.png, enabled=false",
             "addons":"https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/zsfc.conf,tag=掌上飞车获取Cookie"
+        },{
+            "config":"0 * * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TestFlight.js, tag=TestFlight自动加入, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true",
+            "addons":"https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/testflight.conf,tag=TestFlight自动加入获取appId"
         },
     ]
 }
