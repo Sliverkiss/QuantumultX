@@ -50,8 +50,62 @@
         "desc": "我的 --> 手动签到一次"
        }  
       ]
-    },
-    {
+    },{
+            "id": "yuheng.95598",
+            "name": "网上国网",
+            "descs_html": [
+                "<a target='_blank' href='https://github.com/Yuheng0101/X/tree/main/Tasks/95598'>README.md</a>"
+            ],
+            "keys": [
+                "95598_username",
+                "95598_password",
+                "95598_recent_elc_fee",
+                "95598_surge_panel_config",
+                "95598_bizrt",
+                "95598_bindInfo"
+            ],
+            "settings": [
+                {
+                    "id": "95598_username",
+                    "name": "账号",
+                    "val": null,
+                    "type": "text",
+                    "rows": 1,
+                    "desc": "手机号"
+                },
+                {
+                    "id": "95598_password",
+                    "name": "密码",
+                    "val": null,
+                    "type": "text",
+                    "rows": 1,
+                    "desc": ""
+                },
+                {
+                    "id": "95598_recent_elc_fee",
+                    "name": "是否查看近7天用电量",
+                    "val": false,
+                    "type": "boolean",
+                    "desc": ""
+                },
+                {
+                    "id": "95598_surge_panel_config",
+                    "name": "Surge Panel配置",
+                    "val": "{'title':'','content':'','icon':'','icon-color':''}",
+                    "type": "text",
+                    "rows": 10,
+                    "desc": "使用方式请看README.md"
+                }
+            ],
+            "author": "@yuheng",
+            "repo": "https://github.com/Yuheng0101/X",
+            "icons": [
+                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/83/d8/8a/83d88a92-5a4d-7a2f-118c-80d795e7a9f6/AppIcon-0-0-1x_U007emarketing-0-5-0-0-sRGB-85-220.png/144x144.png",
+                "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/83/d8/8a/83d88a92-5a4d-7a2f-118c-80d795e7a9f6/AppIcon-0-0-1x_U007emarketing-0-5-0-0-sRGB-85-220.png/144x144.png"
+            ],
+            "script": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js"
+      },
+      {
       "id": "adjd",
       "name": "亚朵酒店",
       "script": "",
