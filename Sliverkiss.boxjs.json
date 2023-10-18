@@ -578,6 +578,28 @@
          "desc": "抓包 https://ios.xiezhenge.com/user , 找到 Cookie，填写到sxios_data,多账号用 @ 分割"
 	}
       ]
+    },{
+      "id": "sxiosV2",
+      "name": "松鼠ios账号版",
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg"
+        ],
+      "keys": ["sxios_base"],
+      "descs_html": ["将账号密码填写到sxios_base，多账号用&分割"],
+      "settings": [
+	      {
+         "id": "sxios_base",
+         "name": "sxios_base",
+         "val": "",
+         "type": "textarea",
+         "placeholder": "",
+         "desc": "将账号密码填写到sxios_base，多账号用&分割"
+	      }
+      ]
     },
     {
       "id": "TestFlight",
