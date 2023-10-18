@@ -12,8 +12,8 @@
       "author": "@Sliverkiss",
       "repo": "",
       "icons": [
-        "https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/icon/Iios.png",
-        "https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/icon/Iios.png"  
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iios.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iios.png"  
       ],
       "keys": ["iios_data"],
       "descs_html": ["将脚本拉取到本地->打开网站随便逛逛，若提示获取cookie成功则可以使用该脚本"],
