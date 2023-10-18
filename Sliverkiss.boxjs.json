@@ -894,6 +894,29 @@
          "desc": "抓取yuchenios.com域名下签到的cookie填写到zhixuan_data，多账号用 @ 分隔"
        }
      ]
+    },{
+      "id": "dlm",
+      "name": "达乐美",
+      "author": "@Sliverkiss",
+      "script": "dlm.js",
+      "descs_html":[
+        "<font class='red--text'>1.将获取Cookie脚本保存到本地</br>2.打开达乐美披萨公众号->优惠｜咨询->有奖游戏->手动完成一次游戏，若提示获取Cookie成功则可以使用该脚本</br>3.关闭获取ck脚本，避免产生不必要的mitm。</font>"
+      ],
+      "icons":[
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/dlm.png",
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/dlm.png"
+      ],
+      "keys":[
+        "dlm_data"
+      ],
+      "settings":[
+        {
+          "id": "dlm_data",
+          "name": "dlm_data",
+          "type": "textarea",
+          "desc": "登录后抓包 https://game.dominos.com.cn/gold/game/gameDone接口的body,填写到dlm_data,多账号用 @ 分割"
+        }
+      ]
     },
     {
       "id": "zsfc",
