@@ -811,8 +811,8 @@
       "author": "@Sliverkiss",
       "repo": "",
       "icons": [
-        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png",
-        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png"
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg"
       ],
       "keys": ["yuchenCookie"],
       "descs_html": ["打开网站->登录后进入个人中心，若提示获取ck成功则可以使用该脚本"],
