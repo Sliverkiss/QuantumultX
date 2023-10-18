@@ -563,8 +563,8 @@
       "author": "@Sliverkiss",
       "repo": "",
       "icons": [
-        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Firework.png",
-        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Firework.png"
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg"
         ],
       "keys": ["sxios_data"],
       "descs_html": ["1.将获取Cookie脚本保存到本地</br>打开小程序->个人中心->登录后刷新，确保拿到完整的Cookie，若提示获取Cookie成功则可以使用该脚本</br>3.关闭获取ck脚本，避免产生不必要的mitm。"],
@@ -811,8 +811,8 @@
       "author": "@Sliverkiss",
       "repo": "",
       "icons": [
-        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg",
-        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg"
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png"
       ],
       "keys": ["yuchenCookie"],
       "descs_html": ["打开网站->登录后进入个人中心，若提示获取ck成功则可以使用该脚本"],
