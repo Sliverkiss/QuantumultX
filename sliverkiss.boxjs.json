@@ -22,9 +22,386 @@
       "author": "@Sliverkiss",
       "repo": "",
       "icons": [
-        "https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/icon/Iios.png",
-        "https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/icon/Iios.png"
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iios.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iios.png"
         ]
-    } 
+    },{
+      "id": "maicaimeituan",
+      "name": "美团买菜",
+      "keys": ["jojo_mall_meituan"],
+      "descs_html": ["<h4 align=\"center\">打开美团->搜索美团买菜->点击我的->买菜币->签到获取token</a></h4>"],
+      "settings": [{
+        "id": "jojo_mall_meituan",
+        "name": "jojo_mall_meituan",
+        "val": "",
+        "type": "text",
+        "placeholder": "",
+        "desc": ""
+      }],
+      "script": "https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.mallcoin.task.js",
+      "author": "@JoJoJotarou",
+      "repo": "https://github.com/JoJoJotarou/myScript",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Mtmc.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Mtmc.png"
+        ]
+    },{
+      "id": "yqsl",
+      "name": "元气森林会员中心",
+      "keys": ["yqslCookie"],
+      "descs_html": ["捉Authorization，填写到yqslCookie中，不支持多帐号。打开小程序->个人界面即可获取"],
+      "settings": [
+        {
+        "id": "yqslCookie",
+        "name": "yqslCookie",
+        "val": "",
+        "type": "text",
+        "placeholder": "",
+        "desc": ""
+      }],
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "https://github.com/Sliverkiss/helloworld/tree/master",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yqsl.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yqsl.png"
+        ]
+    },{
+      "id": "tls",
+      "name": "特仑苏官方商城",
+      "keys": ["tls_data"],
+      "descs_html": ["打开微信小程序->个人界面，若提示获取cookie成功则可以使用签到脚本。"],
+      "settings": [
+        {
+        "id": "tls_data",
+        "name": "tls_data",
+        "val": "",
+        "type": "text",
+        "placeholder": "",
+        "desc": ""
+      }],
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "https://github.com/Sliverkiss/helloworld/tree/master",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tls.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tls.png"
+        ]
+    },{
+      "id": "adjd",
+      "name": "亚朵酒店",
+      "keys": ["adjd_url","adjd_header"],
+      "descs_html": ["打开app，点击签到或进入签到日历页面，若提示获取Cookie成功则可使用该脚本。"],
+      "settings": [
+        {
+        "id": "adjd_url",
+        "name": "adjd_url",
+        "val": "",
+        "type": "text",
+        "placeholder": "",
+        "desc": ""
+      },{
+        "id": "adjd_header",
+        "name": "adjd_header",
+        "val": "",
+        "type": "text",
+        "placeholder": "",
+        "desc": ""
+      }],
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "https://github.com/Sliverkiss/helloworld/tree/master",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Adjd.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Adjd.png"
+        ]
+    },{
+      "id": "gddt",
+      "name": "高德地图",
+      "keys": ["GD_Val"],
+      "descs_html": ["进入【高德地图，打车，福利中心】,如果没提醒，重新打开APP重新进入"],
+      "settings": [
+        {
+        "id": "GD_Val",
+        "name": "GD_Val",
+        "val": "",
+        "type": "text",
+        "placeholder": "",
+        "desc": ""
+      }],
+      "script": "https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js",
+      "author": "@wf021325",
+      "repo": "https://github.com/wf021325/qx/master/",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Gddt.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Gddt.png"
+        ]
+    },{
+      "id": "wbzj",
+      "name": "腕表之家",
+      "keys": ["WBZJ_COOKIE","WBZJ_KEY"],
+      "descs_html": ["抓取 api.mengtuiapp.com 任意一个hd里面的X-Token   填写到 mt_token 多账号@分割"],
+      "settings": [
+        {
+        "id": "WBZJ_COOKIE",
+        "name": "WBZJ_COOKIE",
+        "val": "",
+        "type": "text",
+        "placeholder": "",
+        "desc": ""
+      },{
+        "id": "WBZJ_KEY",
+        "name": "WBZJ_KEY",
+        "val": "",
+        "type": "text",
+        "placeholder": "",
+        "desc": ""
+        }],
+      "script": "https://raw.githubusercontent.com/wf021325/qx/master/task/wbzj.js",
+      "author": "@苍井灰灰",
+      "repo": "https://github.com/Sliverkiss/helloworld/tree/master",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wbzj.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wbzj.png"
+        ]
+    },{
+      "id": "RTuhyche",
+      "name": "途虎签到",
+      "author": "@Zoo",
+      "repo": "https://github.com/Crazy-Z7/Task",
+      "script": "https://github.com/Crazy-Z7/Task/blob/main/Tuhyche.js?raw=true",
+      "descs_html": [
+        "<font class='red--text'>cookie获取:公众号搜索途虎小程序登录</font>"
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/tuhu.png",
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/tuhu.png"
+      ],
+      "keys": [
+        "tuhuvx",
+        "TU_usersignKeyTU"
+      ],
+      "settings": [
+        {
+          "id": "tuhuvx",
+          "name": "tuhuvx",
+          "val": "",
+          "type": "textarea",
+          "desc": "tuhuvx"
+        },
+        {
+          "id": "TU_usersignKeyTU",
+          "name": "TU_usersignKeyTU",
+          "val": "",
+          "type": "textarea",
+          "desc": "TU_usersignKeyTU"
+        }
+      ]
+    },{
+      "id": "Rbysh",
+      "name": "白药生活+签到",
+      "author": "@Sliverkiss",
+      "repo": "https://github.com/Sliverkiss",
+      "script": "https://github.com/Raphael689/RW/blob/master/Scripts/bysh.js?raw=true",
+      "descs_html": [
+        "<font class='red--text'>捉miniapi-hy.baiyaodajiankang.com域名任意包下的uid和skey，用#连接，如uid#skey,填写到bysh_data中,多帐号用@分隔</font>"
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/bysh.png",
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/bysh.png"
+      ],
+      "keys": [
+        "bysh_data"
+      ],
+      "settings":[
+        {
+          "id": "bysh_data",
+          "name": "bysh_data",
+          "val": "",
+          "type": "textarea",
+          "desc": "捉miniapi-hy.baiyaodajiankang.com域名任意包下的uid和skey，用#连接，如uid#skey,填写到bysh_data中,多帐号用@分隔"
+        }
+      ]
+    },
+    {
+      "id": "Rlsl",
+      "name": "冷酸灵签到",
+      "author": "@Sliverkiss",
+      "repo": "https://github.com/Sliverkiss",
+      "script": "",
+      "descs_html": [
+        "<font class='red--text'>抓取scrm.dencare.com.cn域名下接口的token填写到lsl_data，多账号用 @ 分隔</font>"
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/lsl.png",
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/lsl.png"
+      ],
+      "keys": [
+        "lsl_data"
+      ],
+      "settings": [
+        {
+          "id": "lsl_data",
+          "name": "lsl_data",
+          "val": "",
+          "type": "textarea",
+          "desc": "抓取scrm.dencare.com.cn域名下接口的token填写到lsl_data，多账号用 @ 分隔"
+        }
+      ]
+    },
+    {
+      "id": "Rczf",
+      "name": "纯甄粉爱俱乐部签到",
+      "author": "@Sliverkiss",
+      "repo": "https://github.com/Sliverkiss",
+      "script": "",
+      "descs_html": ["该脚本仅供有缘人使用，具体操作流程请自行查看脚本注释"],
+      "icons": [
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/czf.png",
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/czf.png"
+      ],
+      "keys": [
+        "czfajlb_data"
+      ],
+      "settings": [
+        {
+          "id": "czfajlb_data",
+          "name": "czfajlb_data",
+          "val": "",
+          "type": "textarea",
+          "desc": "抓包ucode-openapi.aax6.cn域名下的Authorization，填写到czfajlb_data,多账号用@分割,如Authorization@Authorization"
+        }
+      ]
+    },
+    {
+      "id": "Rhgds",
+      "name": "哈根达斯签到",
+      "author": "@Sliverkiss",
+      "repo": "https://github.com/Sliverkiss",
+      "script": "",
+      "descs_html": [
+        "<font size='2'>打开抓包，点击签到，抓https://haagendazs.smarket.com.cn/v1/api/wxapp/daily/signIn请求体的openId、sessionKey和unionId，分别用#连接,如openId#sessionKey#unionId,填写到hgds_data</font>"
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/Hgds.png",
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/Hgds.png"
+      ],
+      "keys": [
+        "hgds_data"
+      ],
+      "settings": [
+        {
+          "id": "hgds_data",
+          "name": "hgds_data",
+          "val": "",
+          "type": "textarea",
+          "desc": "打开抓包，点击签到，抓https://haagendazs.smarket.com.cn/v1/api/wxapp/daily/signIn请求体的openId、sessionKey和unionId，分别用#连接,如openId#sessionKey#unionId,填写到hgds_data"
+        }
+      ]
+    },
+    {
+      "id": "Rysf",
+      "name": "云闪付签到",
+      "author": "@Sliverkiss",
+      "repo": "https://github.com/Sliverkiss",
+      "script": "",
+      "descs_html": [
+        "<font size='2'><font class='red--text'>抓youhui.95516.com域名包下的Authorization,usrId和openId，用#连接，多账号换行</font>"
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/ysf.png",
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/ysf.png"
+      ],
+      "keys": [
+        "ysf_cookie"
+      ],
+      "settings": [
+        {
+          "id": "ysf_cookie",
+          "name": "ysf_cookie",
+          "val": "",
+          "type": "textarea",
+          "desc": "抓youhui.95516.com域名包下的Authorization,usrId和openId，用#连接，多账号换行"
+        }
+      ]
+    },{
+      "id": "RQvideo",
+      "name": "腾讯视频",
+      "author": "@MartinsKing",
+      "script": "https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/videoqq.js",
+      "descs_html":[
+        "<font size='2'><b>获取Cookie以及脚本配置请查看</b></font><a href='https://github.com/ClydeTime/Quantumult/blob/main/Script/Task/videoqq.js?raw=true'><font class='orange--text'>脚本注释</font></a></br><font class='red--text'>①获取cookie</br>后台退出手机腾讯视频客户端的情况下,重新打开APP进入主页</br>如通知成功获取cookie,则可以使用此签到脚本.</br>获取Cookie后, 请将Cookie脚本禁用并移除主机名,以免产生不必要的MITM.</br>②获取pc_cookie以及ref_url添加到boxjs,boxjs订阅链接「https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/boxjs.json」</br>ref_url获取教程: 「https://cdn.jsdelivr.net/gh/BlueskyClouds/Script/img/2020/11/1/img/v_1.jpg」</br>pc_cookie获取教程: 「https://cdn.jsdelivr.net/gh/BlueskyClouds/Script/img/2020/11/1/img/v_2.jpg」</font>"
+      ],
+      "icons":[
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/videoqq.png",
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/videoqq.png"
+      ],
+      "keys":[
+        "videoqq_pc_cookie",
+        "videoqq_ref_url"
+      ],
+      "settings":[
+        {
+          "id": "videoqq_pc_cookie",
+          "name": "pc_cookie",
+          "type": "textarea",
+          "desc": "腾讯视频网页版cookie"
+        },
+        {
+          "id": "videoqq_ref_url",
+          "name": "ref_url",
+          "type": "textarea",
+          "desc": "腾讯视频Request URL"
+        }
+      ]
+    },
+    {
+      "id": "Rhpyhj",
+      "name": "HAPI哈啤硬核街",
+      "author": "@Sliverkiss",
+      "script": "",
+      "descs_html":[
+        "<font size='2'><font class='red--text'>1.将获取Cookie脚本保存到本地</br>2.打开小程序->我的，若提示获取Cookie成功则可以使用该脚本</br>3.关闭获取ck脚本，避免产生不必要的mitm</font>"
+      ],
+      "icons":[
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/hapi.png",
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/hapi.png"
+      ],
+      "keys":[
+        "hapi_data"
+      ],
+      "settings":[
+        {
+          "id": "hapi_data",
+          "name": "hapi_data",
+          "type": "textarea",
+          "desc": "登录后抓包 bg-hardcore.ab-inbev.cn域名下的openId、sign、timestamp,分别用#连接，如openId#sign#timestamp，填写到hapi_data,多账号用 @ 分割"
+        }
+      ]
+    },
+    {
+      "id": "Rdlm",
+      "name": "达乐美",
+      "author": "@Sliverkiss",
+      "script": "dlm.js",
+      "descs_html":[
+        "<font size='2'>1.将获取Cookie脚本保存到本地</br>2.打开达乐美披萨公众号->优惠｜咨询->有奖游戏->手动完成一次游戏，若提示获取Cookie成功则可以使用该脚本</br>3.关闭获取ck脚本，避免产生不必要的mitm。</font>"
+      ],
+      "icons":[
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/dlm.png",
+        "https://raw.githubusercontent.com/Raphael689/RW/master/iCons/dlm.png"
+      ],
+      "keys":[
+        "dlm_data"
+      ],
+      "settings":[
+        {
+          "id": "dlm_data",
+          "name": "dlm_data",
+          "type": "textarea",
+          "desc": "登录后抓包 https://game.dominos.com.cn/gold/game/gameDone接口的body,填写到dlm_data,多账号用 @ 分割"
+        }
+      ]
+    },
   ]
 }
