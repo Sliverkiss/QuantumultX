@@ -676,6 +676,28 @@
          "desc": "将账号密码填写到sxios_base，多账号用&分割"
 	      }
       ]
+    },{
+      "id": "hxsy",
+      "name": "花夏ios",
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxsy.jpg",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxsy.jpg"
+        ],
+      "keys": ["hxsy_data"],
+      "descs_html": ["将账号密码填写到hxsy_data，多账号用&分割"],
+      "settings": [
+	      {
+         "id": "hxsy_data",
+         "name": "hxsy_data",
+         "val": "",
+         "type": "textarea",
+         "placeholder": "",
+         "desc": "将账号密码填写到hxsy_data，多账号用&分割"
+	      }
+      ]
     },
     {
       "id": "TestFlight",
