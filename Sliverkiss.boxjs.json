@@ -698,6 +698,28 @@
          "desc": "将账号密码填写到hxsy_data，多账号用&分割"
 	      }
       ]
+    },{
+      "id": "switch520",
+      "name": "Switch520",
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Switch.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Switch.png"
+        ],
+      "keys": ["switch_data"],
+      "descs_html": ["将账号密码填写到switch_data，多账号用&分割"],
+      "settings": [
+	      {
+         "id": "switch_data",
+         "name": "switch_data",
+         "val": "",
+         "type": "textarea",
+         "placeholder": "",
+         "desc": "将账号密码填写到switch_data，多账号用&分割"
+	      }
+      ]
     },
     {
       "id": "TestFlight",
