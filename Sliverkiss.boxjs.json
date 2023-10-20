@@ -27,6 +27,28 @@
         "desc": "抓包www.iios.fun域名下的Authorization，填写到iios_data,多账号用@分割"
        }  
       ]
+    },{
+      "id": "quark",
+      "name": "夸克网盘",
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png"  
+      ],
+      "keys": ["quark_data"],
+      "descs_html": ["手动签到一次，若提示获取cookie成功则可以使用该脚本"],
+      "settings": [
+       {
+        "id": "quark_data",
+        "name": "quark_data",
+        "val": "",
+        "type": "textarea",
+        "placeholder": "",
+        "desc": "抓https://drive-m.quark.cn/1/clouddrive/capacity/growth/sign接口的kps、sign、vcode，用#连接，填写到quark_data，多账号用@分割"
+       }  
+      ]
     },
     {
       "id": "acfun",

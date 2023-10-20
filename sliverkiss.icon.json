@@ -41,6 +41,9 @@
     },{
       "name": "高德地图",
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Gddt.png"
+    },{
+      "name": "夸克网盘",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png"
     },    
   ]
 }
