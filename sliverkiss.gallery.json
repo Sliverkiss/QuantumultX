@@ -120,6 +120,8 @@
         },{
             "config": "0 0 12 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团签到, img-url=https://qxnav.com/rules/QuantumultX/img/meituan.png, enabled=true",
             "addons": "https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/rewrite/meituan.checkin.conf, tag=美团签到获取token"
+        },{
+            "config": "11 8 * * * https://gist.githubusercontent.com/Sliverkiss/b1b8b87351ff3aca189c5addaa054430/raw/stlxz.js, tag=STLXZ签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Stlxz.png, enabled=false",
         },
     ]
 }

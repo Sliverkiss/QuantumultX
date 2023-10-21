@@ -139,6 +139,28 @@
        }
       ]
     },{
+      "id": "stlxz",
+      "name": "STL下载网",
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Stlxz.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Stlxz.png"
+      ],
+      "keys": ["stlxz_data"],
+      "descs_html": ["将账号和用户名用#拼接，如账号#密码，填写到stlxz_data"],
+      "settings": [
+       {
+        "id": "stlxz_data",
+        "name": "stlxz_data",
+        "val": "",
+        "type": "textarea",
+        "placeholder": "",
+        "desc": "将账号和用户名用#拼接，如账号#密码，填写到stlxz_data"
+       }
+      ]
+    },{
             "id": "yuheng.95598",
             "name": "网上国网",
             "descs_html": [
