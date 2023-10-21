@@ -104,7 +104,7 @@
         "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Linovel.png",
         "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Linovel.png"
       ],
-      "keys": ["linovel_data","linovel_rewward","linovel_uid","linovel_bid"],
+      "keys": ["linovel_data"],
       "descs_html": ["将账号和用户名用#拼接，如账号#密码，填写到linovel_data"],
       "settings": [
        {
