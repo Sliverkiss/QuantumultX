@@ -49,6 +49,28 @@
         "desc": "抓https://drive-m.quark.cn/1/clouddrive/capacity/growth/sign接口的kps、sign、vcode，用#连接，填写到quark_data，多账号用@分割"
        }  
       ]
+    },{
+      "id": "cqxhsd",
+      "name": "重庆新华书店",
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cqxhsd.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cqxhsd.png"  
+      ],
+      "keys": ["cqxhsd_data"],
+      "descs_html": ["抓wx.cqxhsd.cn:8888域名下body的requestinfo的USER_SESSION，填写cqxhsd_data，多账号用@分隔"],
+      "settings": [
+       {
+        "id": "cqxhsd_data",
+        "name": "USER_SESSION",
+        "val": "",
+        "type": "textarea",
+        "placeholder": "",
+        "desc": "抓wx.cqxhsd.cn:8888域名下body的requestinfo的USER_SESSION，填写cqxhsd_data，多账号用@分隔"
+       }  
+      ]
     },
     {
       "id": "acfun",
