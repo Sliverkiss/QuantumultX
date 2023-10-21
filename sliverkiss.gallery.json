@@ -118,6 +118,8 @@
             "config": "0 10 * * * https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js, tag=Boxjs备份, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BoxJS.png, enabled=false",
         },{
             "config": "5 10 * * * https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js, tag=Boxjs恢复, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BoxJS.png, enabled=false",
+        },{
+            "config": "5 7 * * * https://gist.githubusercontent.com/Sliverkiss/a56aaa31bbc01191590b9c4c5c698751/raw/linovel.js, tag=轻之文库, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Linovel.png, enabled=false",
         },
     ]
 }

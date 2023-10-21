@@ -95,6 +95,28 @@
        }  
       ]
     },{
+      "id": "linovel",
+      "name": "轻之文库",
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Linovel.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Linovel.png"
+      ],
+      "keys": ["linovel_data","linovel_rewward","linovel_uid","linovel_bid"],
+      "descs_html": ["将账号和用户名用#拼接，如账号#密码，填写到linovel_data"],
+      "settings": [
+       {
+        "id": "linovel_data",
+        "name": "linovel_data",
+        "val": "",
+        "type": "textarea",
+        "placeholder": "",
+        "desc": "将账号和用户名用#拼接，如账号#密码，填写到linovel_data"
+       }
+      ]
+    },{
             "id": "yuheng.95598",
             "name": "网上国网",
             "descs_html": [
