@@ -124,12 +124,12 @@
             "config": "11 8 * * * https://gist.githubusercontent.com/Sliverkiss/b1b8b87351ff3aca189c5addaa054430/raw/stlxz.js, tag=STLXZ签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Stlxz.png, enabled=false",
         },{
             "config": "10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png, enabled=true",
-            "addons": "https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Task/Remote_Cookie.conf, tag=b站签到获取token"
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/bilibili.conf, tag=b站签到获取token"
         },{
             "config": "0 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js, tag=巴哈姆特签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/bahamutGame.png, enabled=true",
         },{
             "config": "35 8 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js, tag=喜马拉雅签到任务, img-url=https://raw.githubusercontent.com/HuiDoY/Icon/main/mini/Color/ximalaya.png, enabled=true",
-            "addons": "https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Task/Remote_Cookie.conf, tag=MartinsKing通用签到cookie, update-interval=172800, opt-parser=false, enabled=true"
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/xmly.conf, tag=喜马拉雅签到cookie, update-interval=172800, opt-parser=false, enabled=true"
         }
     ]
 }
