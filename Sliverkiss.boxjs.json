@@ -50,6 +50,28 @@
        }  
       ]
     },{
+      "id": "wzyd",
+      "name": "王者营地",
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wzyd.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wzyd.png"  
+      ],
+      "keys": ["wzyd_data"],
+      "descs_html": ["打开应用->我的->每日福利，若提示获取cookie成功则可以使用该脚本"],
+      "settings": [
+       {
+        "id": "wzyd_data",
+        "name": "请求头Headers",
+        "val": "",
+        "type": "textarea",
+        "placeholder": "",
+        "desc": "打开应用->我的->每日福利，若提示获取cookie成功则可以使用该脚本"
+       }  
+      ]
+    },{
       "id": "cqxhsd",
       "name": "重庆新华书店",
       "script": "",
