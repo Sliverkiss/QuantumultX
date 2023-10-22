@@ -1,16 +1,9 @@
 #
 
 <div align="center"> 
-<div align="center" style="margin: 30px;">
-<a href="https://aoi.js.org/">
-  <img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sakura.png"   style="width:800px" align="center"  alt=""/>
-</a>
-  </div>
-<h1 align="center">🌸Sakura樱花交流会</h1>
+<h2 align="center">🌸Sakura Scripts</h1>
+<h4>Collection of Scripts written for QuantumultX iOS App </h4>
 
-<strong></strong>
-
-<br/>
 <a href="https://github.com/Sliverkiss/QuantumultX/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sliverkiss/QuantumultX?color=yellow&logo=riseup&logoColor=yellow&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Sliverkiss/QuantumultX?color=orange&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Sliverkiss/QuantumultX?color=red&style=flat-square"></a>
@@ -18,7 +11,8 @@
 </div>
 
 ## 简介
- -  本仓库主要用于收集和整理各位大佬写的脚本，以便能够快速找到所需要的项目，更好地服务于QuantumultX使用者。本仓库仅负责整理链接订阅，没有任何的脚本文件，所以请不要Forek。如果你对本项目有任何意见，请在issue上提出。Thank you～
+
+本仓库主要用于收集和整理各位大佬写的脚本，以便能够快速找到所需要的项目，更好地服务于QuantumultX软件的使用者。本仓库仅负责整理链接订阅，没有任何的脚本文件，所以请不要Fork。如果你对本项目有任何意见，请在issue上提出。Thank you～
 
 
 ### 安装链接
@@ -29,11 +23,12 @@
 
 ### 赞赏码
 <div align="center">
-<strong>你的每一分赞赏，都是我更新的动力~</strong>
 <a href="">
   <img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/QRcode.png"   style="width:300px" align="center"  alt=""/>
 </a>
+<strong>你的每一分赞赏，都是我更新的动力~</strong>
 </div>
+
 
 
 
