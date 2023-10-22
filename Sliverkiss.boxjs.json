@@ -529,7 +529,49 @@
         "desc": ""
        }  
       ]
-    },
+    },{
+			"id": "BiliBili.DailyBonus",
+			"name": "BiliBili.DailyBonus",
+			"author": "@MartinsKing",
+			"script": "https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js",
+			"descs_html":
+			[
+				"使用说明请见脚本备注",
+				"填写完成后记得点击此页面底端右下角的\"保存\"。"
+			],
+			"icons":
+			[
+				"https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png",
+				"https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png"
+			],
+			"keys":
+			[
+				"@bilibili_daily_bonus.Settings"
+			],
+			"settings":
+			[
+				{
+					"id": "@bilibili_daily_bonus.Settings.exec",
+					"name": "投币次数",
+					"val": "5",
+					"type": "text",
+					"desc": "投币次数(用户自行设置，默认5次)"
+				},
+				{
+					"id": "@bilibili_daily_bonus.Settings.charge_mid",
+					"name": "被充电用户id",
+					"type": "text",
+					"desc": "不填写即为自己, 填写后为指定用户id充电"
+				},
+				{
+					"id": "@bilibili_daily_bonus.Settings.bp_num",
+					"name": "充电B币数",
+					"val": "5",
+					"type": "text",
+					"desc": "充电B币数量(对应每月B币券, 默认5B币, 防勿充可更改为0)"
+				}
+			]
+		},
     {
       "id": "jparking",
       "name": "捷停车",
