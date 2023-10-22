@@ -1,18 +1,19 @@
-#
 
-<div align="center"> 
-<h2 align="center">🌸Sakura Scripts</h1>
-<h4>Collection of Scripts written for QuantumultX iOS App </h4>
+
 
 <a href="https://github.com/Sliverkiss/QuantumultX/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sliverkiss/QuantumultX?color=yellow&logo=riseup&logoColor=yellow&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Sliverkiss/QuantumultX?color=orange&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Sliverkiss/QuantumultX?color=red&style=flat-square"></a>
 <a href="https://t.me/sliverkiss"><img alt="Telegram" src="https://img.shields.io/badge/chat-telegram-blue.svg?logo=telegram&style=flat-square"/></a> 
-</div>
+
+<h2>🌸Sakura Scripts</h1>
+<h4>Collection of Scripts written for QuantumultX iOS App </h4>
+
+![Visitor Count](https://profile-counter.glitch.me/Sliverkiss/count.svg) 
 
 ## 简介
 
-本仓库主要用于收集和整理各位大佬写的脚本，以便能够快速找到所需要的项目，更好地服务于QuantumultX软件的使用者。本仓库仅负责整理链接订阅，没有任何的脚本文件，所以请不要Fork。如果你对本项目有任何意见，请在issue上提出。Thank you～
+> 本仓库主要用于收集和整理各位大佬写的脚本，以便能够快速找到所需要的项目，更好地服务于QuantumultX软件的使用者。本仓库仅负责整理链接订阅，没有任何的脚本文件，所以请不要Fork。如果你对本项目有任何意见，请在issue上提出。Thank you～
 
 
 ### 安装链接
@@ -23,16 +24,12 @@
 
 ### 赞赏码
 <div align="center">
-<a href="">
-  <img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/QRcode.png"   style="width:300px" align="center"  alt=""/>
-</a>
-<strong>你的每一分赞赏，都是我更新的动力~</strong>
+  <a href=""><img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/QRcode.png" style="width:300px" align="center" alt=""/></a>
+  <strong>你的每一分赞赏，都是我更新的动力~</strong>
 </div>
 
 
-
-
- ### 免责声明
+ ## 免责声明
 * 项目内所涉及脚本、LOGO 仅为资源共享、学习参考之目的，不保证其合法性、正当性、准确性；切勿使用项目做任何商业用途或牟利；
 
 * 遵循避风港原则，若有图片和内容侵权，请在 Issues 告知，核实后删除，其版权均归原作者及其网站所有；
@@ -55,7 +52,7 @@
 
 ---
 
-### 特别感谢
+## 特别感谢
 *  [@chavyleung](https://github.com/chavyleung) 
 *  [@NobyDa](https://github.com/NobyDa)   
 *  [@kayanouriko](https://github.com/kayanouriko)
