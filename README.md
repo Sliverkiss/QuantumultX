@@ -23,51 +23,52 @@
 
 ### QuantumultX Scripts Overview
 
-Application|Author|Available|
+Application | Author | Available |
  :-: | :-: | :-: | :-: |
-中免会员小程序|Sliverkiss|✅
-高德地图|wf021325|✅
-iios|wf021325|✅
-米游社|kayanouriko|✅
-森空岛|kayanouriko|✅
-松鼠ios|Sliverkiss|✅
-雨晨ios|Sliverkiss|✅
-亚朵酒店|Sliverkiss|✅
-腕表之家|wf021325|✅
-起点读书|MCdasheng|✅
-AcFun|MCdasheng|✅
-天翼云盘|MCdasheng|✅
-macat|MCdasheng|✅
-霸王茶姬|MCdasheng|✅
-途虎养车|Crazy-Z7|✅
-小豆苗|wf021325|✅
-华住会|wf021325|✅
-捷停车|Fokit|✅
-美团买菜|JoJoJotarou|✅
-元气森林会员中心|Sliverkiss|✅
-沪上阿姨|Sliverkiss|✅
-哈啰单车|Sliverkiss|✅
-知轩藏书|Sliverkiss|✅
-阿里云|zqzess|✅
-什么值得买|blackmatrix7|✅
-百度贴吧|blackmatrix7|✅
-Glados|◾️◾️◾️◾️|✅
-花夏数娱|Sliverkiss|✅
-◾️◾️◾️◾️|yuheng|✅
-松鼠iosＶ2|Sliverkiss|✅
-海信爱家|Sliverkiss|✅
-掌上飞车|chiupam|✅
-掌飞购物|chiupam|✅
-tf自动加入|MCdasheng|✅
-雀巢会员俱乐部|Sliverkiss|✅
-Switch520|Sliverkiss|✅
-夸克网盘|Sliverkiss|✅
-轻之文库|Sliverkiss|✅
-美团签到|chavyleung|✅
-STLXZ|Sliverkiss|✅
-B站每日等级任务|ClydeTime|✅
-巴哈姆特|NobyDa|✅
-喜马拉雅|Sliverkiss|✅
+中免会员小程序 | Sliverkiss | ✅
+高德地图 | wf021325 | ✅
+iios | wf021325 | ✅
+米游社 | kayanouriko | ✅
+森空岛 | kayanouriko | ✅
+松鼠ios | Sliverkiss | ✅
+雨晨ios | Sliverkiss | ✅
+亚朵酒店 | Sliverkiss | ✅
+腕表之家 | wf021325 | ✅
+起点读书 | MCdasheng | ✅
+AcFun | MCdasheng | ✅
+天翼云盘 | MCdasheng | ✅
+macat | MCdasheng | ✅
+霸王茶姬 | MCdasheng | ✅
+途虎养车 | Crazy-Z7 | ✅
+小豆苗 | wf021325 | ✅
+华住会 | wf021325 | ✅
+捷停车 | Fokit | ✅
+美团买菜 | JoJoJotarou | ✅
+元气森林会员中心 | Sliverkiss | ✅
+沪上阿姨 | Sliverkiss | ✅
+哈啰单车 | Sliverkiss | ✅
+知轩藏书 | Sliverkiss | ✅
+阿里云 | zqzess | ✅
+什么值得买 | blackmatrix7 | ✅
+百度贴吧 | blackmatrix7 | ✅
+Glados | ◾️◾️◾️◾️ | ✅
+花夏数娱 | Sliverkiss | ✅
+◾️◾️◾️◾️ | yuheng | ✅
+松鼠iosＶ2 | Sliverkiss | ✅
+海信爱家 | Sliverkiss | ✅
+掌上飞车 |chiupam | ✅
+掌飞购物 | chiupam | ✅
+tf自动加入 | MCdasheng | ✅
+雀巢会员俱乐部 | Sliverkiss | ✅
+Switch520 | Sliverkiss | ✅
+夸克网盘 | Sliverkiss | ✅
+轻之文库 | Sliverkiss | ✅
+美团签到 |chavyleung | ✅
+STLXZ |Sliverkiss | ✅
+B站每日等级任务| ClydeTime | ✅
+巴哈姆特 |NobyDa | ✅
+喜马拉雅 | Sliverkiss | ✅
+
 ------
 
 
