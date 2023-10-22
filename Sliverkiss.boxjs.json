@@ -183,6 +183,57 @@
        }
       ]
     },{
+    "id": "Bahamut",
+    "name": "巴哈姆特",
+    "keys": ["@ND_BAHA.ID", "@ND_BAHA.PW", "@ND_BAHA.TOTP", "@ND_BAHA.GUILD", "@ND_BAHA.ANSWER", "@ND_BAHA.ADS"],
+    "descs_html": [
+      "<h4 align=\"center\">脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js\">脚本注释</a></h4>"
+    ],
+    "settings": [{
+      "id": "@ND_BAHA.ADS",
+      "name": "签到广告",
+      "val": false,
+      "type": "boolean",
+      "desc": "开启后将签到双倍巴币奖励, 默认关闭. 请注意, 此功能耗时过长(30秒以上), 如果使用Surge请调整该脚本超时为300秒"
+    }, {
+      "id": "@ND_BAHA.GUILD",
+      "name": "签到公会",
+      "val": true,
+      "type": "boolean",
+      "desc": "开启后将自动签到公会"
+    }, {
+      "id": "@ND_BAHA.ANSWER",
+      "name": "动画疯答题",
+      "val": true,
+      "type": "boolean",
+      "desc": "开启后将自动答题"
+    }, {
+      "id": "@ND_BAHA.ID",
+      "name": "用户名",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "输入用户名(账号)"
+    }, {
+      "id": "@ND_BAHA.PW",
+      "name": "用户密码",
+      "val": "",
+      "type": "text",
+      "placeholder": "",
+      "desc": "输入用户密码"
+    }, {
+      "id": "@ND_BAHA.TOTP",
+      "name": "两步验证令牌",
+      "val": "",
+      "type": "text",
+      "placeholder": "(点击以展开说明)",
+      "desc": "输入网站生成的16位令牌, 如未设置两步验证, 请留空"
+    }],
+    "script": "https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js",
+    "author": "@NobyDa",
+    "repo": "https://github.com/NobyDa/Script/blob/master/Bahamut/BahamutDailyBonus.js",
+    "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/bahamutGame.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/bahamutGame.png"]
+  },{
             "id": "yuheng.95598",
             "name": "网上国网",
             "descs_html": [
