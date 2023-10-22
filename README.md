@@ -60,3 +60,7 @@
 *  [@NobyDa](https://github.com/NobyDa)   
 *  [@kayanouriko](https://github.com/kayanouriko)
 *  [@ClydeTime](https://github.com/ClydeTime)
+
+## License
+
+[MIT](LICENSE)
