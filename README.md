@@ -17,7 +17,6 @@
 <a href="https://t.me/sliverkiss"><img alt="Telegram" src="https://img.shields.io/badge/chat-telegram-blue.svg?logo=telegram&style=flat-square"/></a> 
 </div>
 
----
 ## 简介
  -  本仓库主要用于收集和整理各位大佬写的脚本，以便能够快速找到所需要的项目，更好地服务于QuantumultX使用者。本仓库仅负责整理链接订阅，没有任何的脚本文件，所以请不要Forek。如果你对本项目有任何意见，请在issue上提出。Thank you～
 
@@ -27,18 +26,16 @@
   * boxjs订阅: [sliverkiss.boxjs.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/Sliverkiss.boxjs.json)
   * icon图标集: [sliverkiss.icon.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.icon.json)
 
----
 
 ### 赞赏码
 <div align="center">
-<strong>你的每一分赞赏，都是我更新的动力~</strong><br/>
+<strong>你的每一分赞赏，都是我更新的动力~</strong>
 <a href="">
   <img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/QRcode.png"   style="width:300px" align="center"  alt=""/>
 </a>
 </div>
 
 
----
 
  ### 免责声明
 * 项目内所涉及脚本、LOGO 仅为资源共享、学习参考之目的，不保证其合法性、正当性、准确性；切勿使用项目做任何商业用途或牟利；
