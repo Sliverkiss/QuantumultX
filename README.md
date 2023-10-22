@@ -1,6 +1,3 @@
-
-
-
 <a href="https://github.com/Sliverkiss/QuantumultX/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sliverkiss/QuantumultX?color=yellow&logo=riseup&logoColor=yellow&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Sliverkiss/QuantumultX?color=orange&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Sliverkiss/QuantumultX?color=red&style=flat-square"></a>
@@ -16,13 +13,13 @@
 本仓库主要用于收集和整理各位大佬写的脚本，以便能够快速找到所需要的项目，更好地服务于QuantumultX软件的使用者。本仓库仅负责整理链接订阅，没有任何的脚本文件，所以请不要Fork。如果你对本项目有任何意见，请在issue上提出。Thank you～
 
 > 如有任何疑问，请通过tg机器人联系我👉[@Sliverkiss](https://t.me/sliverkiss_bot)
+
 ### 安装链接
   * 任务仓库订阅: [sliverkiss.gallery.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.gallery.json)
   * boxjs订阅: [sliverkiss.boxjs.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/Sliverkiss.boxjs.json)
   * icon图标集: [sliverkiss.icon.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.icon.json)
 
 ### QuantumultX Scripts Overview
-
 
 |                       Application                       |                         Author                          |   Available    |
 | :-----------------------------------------------------: | :----------------------------------------------------------: | :------------: | 
@@ -70,12 +67,8 @@
 | 巴哈姆特 |NobyDa | ✅ |
 | 喜马拉雅 | Sliverkiss | ✅ |
 
-------
-
-
-
-
 ### 赞赏码
+
 <div align="center">
   <a href=""><img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/QRcode.png" style="width:300px" align="center" alt=""/></a>
   <strong>你的每一分赞赏，都是我更新的动力~</strong>
@@ -103,7 +96,8 @@
 
 * 本项目保留随时对免责声明进行补充或更改的权利，直接或间接使用本项目内容的个人或组织，视为接受本项目的特别声明。
 
----
+
+## Star🌟
 
 <img src="https://api.star-history.com/svg?repos=sliverkiss/QuantumultX&type=Date" alt="Star History Chart" width="600" height="356" align="center">
 
@@ -112,6 +106,9 @@
 *  [@NobyDa](https://github.com/NobyDa)   
 *  [@kayanouriko](https://github.com/kayanouriko)
 *  [@ClydeTime](https://github.com/ClydeTime)
+*  [@Yuheng0101](https://github.com/Yuheng0101)
+*  [@wf021325](https://github.com/wf021325)
+
 
 ## License
 
