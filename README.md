@@ -23,8 +23,9 @@
 
 ### QuantumultX Scripts Overview
 
+
 Application | Author | Available |
- :-: | :-: | :-: | :-: |
+ :--: | :--: | :--: | :--: |
 中免会员小程序 | Sliverkiss | ✅
 高德地图 | wf021325 | ✅
 iios | wf021325 | ✅
