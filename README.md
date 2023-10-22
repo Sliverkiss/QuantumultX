@@ -68,7 +68,7 @@
 | STLXZ |Sliverkiss | ✅ |
 | B站每日等级任务| ClydeTime | ✅ |
 | 巴哈姆特 |NobyDa | ✅ |
-| 喜马拉雅 | Sliverkiss | ✅ |
+| 喜马拉雅 | ClydeTime | ✅ |
 
 ### 赞赏码
 
