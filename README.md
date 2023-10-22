@@ -1,4 +1,46 @@
- # 免责声明
+#
+
+<div align="center"> 
+<div align="center" style="margin: 30px;">
+<a href="https://aoi.js.org/">
+  <img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sakura.png"   style="width:800px" align="center"  alt=""/>
+</a>
+  </div>
+<h1 align="center">🌸Sakura樱花交流会</h1>
+
+<strong></strong>
+
+<br/>
+<a href="https://github.com/Sliverkiss/QuantumultX/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sliverkiss/QuantumultX?color=yellow&logo=riseup&logoColor=yellow&style=flat-square"></a>
+<a href="https://github.com/Sliverkiss/QuantumultX/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Sliverkiss/QuantumultX?color=orange&style=flat-square"></a>
+<a href="https://github.com/Sliverkiss/QuantumultX/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Sliverkiss/QuantumultX?color=red&style=flat-square"></a>
+<a href="https://t.me/sliverkiss"><img alt="Telegram" src="https://img.shields.io/badge/chat-telegram-blue.svg?logo=telegram&style=flat-square"/></a> 
+</div>
+
+---
+## 简介
+ -  本仓库主要用于收集和整理各位大佬写的脚本，以便能够快速找到所需要的项目，更好地服务于QuantumultX使用者。本仓库仅负责整理链接订阅，没有任何的脚本文件，所以请不要Forek。如果你对本项目有任何意见，请在issue上提出。Thank you～
+
+
+### 安装链接
+  * 任务仓库订阅: [sliverkiss.gallery.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.gallery.json)
+  * boxjs订阅: [sliverkiss.boxjs.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/Sliverkiss.boxjs.json)
+  * icon图标集: [sliverkiss.icon.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.icon.json)
+
+---
+
+### 赞赏码
+<div align="center">
+<strong>你的每一分赞赏，都是我更新的动力~</strong><br/>
+<a href="">
+  <img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/QRcode.png"   style="width:300px" align="center"  alt=""/>
+</a>
+</div>
+
+
+---
+
+ ### 免责声明
 * 项目内所涉及脚本、LOGO 仅为资源共享、学习参考之目的，不保证其合法性、正当性、准确性；切勿使用项目做任何商业用途或牟利；
 
 * 遵循避风港原则，若有图片和内容侵权，请在 Issues 告知，核实后删除，其版权均归原作者及其网站所有；
@@ -19,13 +61,10 @@
 
 * 本项目保留随时对免责声明进行补充或更改的权利，直接或间接使用本项目内容的个人或组织，视为接受本项目的特别声明。
 
+---
+
 ### 特别感谢
 *  [@chavyleung](https://github.com/chavyleung) 
 *  [@NobyDa](https://github.com/NobyDa)   
-*  [@wd210010](https://github.com/wd210010)
 *  [@kayanouriko](https://github.com/kayanouriko)
-*  [@leafTheFish](https://github.com/leafTheFish)
-*  [@danchaofan12138](https://github.com/danchaofan12138/)
-*  [@lu0b0](https://github.com/lu0b0)
 *  [@ClydeTime](https://github.com/ClydeTime)
-*  [@lliuqi6968](http://github.com/liuqi6968)
