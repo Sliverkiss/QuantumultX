@@ -83,11 +83,7 @@
             "config":"6 3 * * * https://gist.githubusercontent.com/Sliverkiss/f06235486565837c18435b40d99229e5/raw/d3e51037e9d46f668161172c58a93319681b3382/hxsy.js, tag=花夏ios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxsy.jpg, enabled=false",
         },{
             "config":"0 9 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js, tag=网上国电费查询, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wsgw.jpg, enabled=false",
-        },
-        //{
-        //  "config": "45 10 * * * https://gist.githubusercontent.com/Sliverkiss/1e63036fcd7af6fdb90c23e979e2cc34/raw/sxiosV2.js, tag=🐿️松鼠ios账号版签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg, enabled=false",
-        //},
-        {
+        },{
             "config":"52 7 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/Hisense.js, tag=海信爱家, img-url=https://github.com/FoKit/Scripts/blob/main/images/hisense.png?raw=true, enabled=false",
             "addons":"https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/hisense.conf,tag=海信爱家获取Cookie"
         },{
