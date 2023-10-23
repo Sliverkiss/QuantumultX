@@ -56,7 +56,7 @@
 > Sliverkiss的脚本注释中通常都会有将XXX填写到XXX的描述，如果你有多账号的需求，建议阅读以下教程。
 
 1. 首先打开boxjs，点击我的。
-> 关于如何安装并使用boxjs, 请移步![boxjs官方文档](https://github.com/chavyleung/boxjs-doc)
+> 关于如何安装并使用boxjs, 请移步[boxjs官方文档](https://github.com/chavyleung/boxjs-doc)
 
 ![](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/boxjs_1.png)
 
