@@ -75,7 +75,6 @@
 | iios | wf021325 | ✅ |
 | 米游社 | kayanouriko | ✅ |
 | 森空岛 | kayanouriko | ✅ |
-| 松鼠ios | Sliverkiss | ✅ |
 | 雨晨ios | Sliverkiss | ✅ |
 | 亚朵酒店 | Sliverkiss | ✅ |
 | 腕表之家 | wf021325 | ✅ |
@@ -96,7 +95,6 @@
 | 阿里云 | zqzess | ✅ |
 | 什么值得买 | blackmatrix7 | ✅ |
 | 百度贴吧 | blackmatrix7 | ✅ |
-| Glados | ◾️◾️◾️◾️ | ✅ |
 | 花夏数娱 | Sliverkiss | ✅ |
 | ◾️◾️◾️◾️ | yuheng | ✅ |
 | 松鼠iosＶ2 | Sliverkiss | ✅ |
