@@ -17,10 +17,41 @@
 
 > 如有任何疑问，请通过tg机器人联系我👉[@Sliverkiss](https://t.me/sliverkiss_bot)
 
+### 前言
+
+1. 当使用该项目的前提下, 使用重写仅适用于单账号, 当你有多账号需求时, 请使用boxjs根据脚本说明手动填入相关变量.
+
+2. 使用该项目之前, 你需要提前了解如何使用 quantumultx 拉取远程仓库和执行脚本.
+
+3. 目前 quantumultx 并不会自动升级远程配置的脚本, 当你发现脚本功能不可用时, 可先看该项目是否已经更新修复了, 再尝试在 quantumultx 内更新脚本以获取最新的修复.
+
+
 ### 安装链接
   * 任务仓库订阅: [sliverkiss.gallery.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.gallery.json)
+
   * boxjs订阅: [sliverkiss.boxjs.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/Sliverkiss.boxjs.json)
+
   * icon图标集: [sliverkiss.icon.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.icon.json)
+
+### 如何使用
+
+#### 任务仓库订阅
+
+|     ![](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/teacher_1.png)     |
+| :------------------------------: |
+| 1.引入资源 |
+
+
+|     ![](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/teacher_3.png)     |
+| :------------------------------: |
+| 2.点击添加附加组件 |
+
+
+|     ![](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/teacher_4.png)     |
+| :------------------------------: |
+| 3.获取重写成功后，移除附加组件 |
+
+
 
 ### QuantumultX Scripts Overview
 
