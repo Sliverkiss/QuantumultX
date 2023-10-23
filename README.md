@@ -52,7 +52,6 @@
 | 3.获取重写成功后，移除附加组件 |
 
 
-
 ### QuantumultX Scripts Overview
 
 |                       Application                       |                         Author                          |   Available    |
