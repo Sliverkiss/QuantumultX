@@ -50,6 +50,28 @@
        }  
       ]
     },{
+      "id": "ysfＶ2",
+      "name": "云闪付签到",
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Ysf.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Ysf.png"  
+      ],
+      "keys": ["ysf_data"],
+      "descs_html": ["进入签到页面，若提示获取cookie成功则可以使用该脚本"],
+      "settings": [
+       {
+        "id": "ysf_data",
+        "name": "ysf_data",
+        "val": "",
+        "type": "textarea",
+        "placeholder": "",
+        "desc": "进入签到页面，若提示获取cookie成功则可以使用该脚本"
+       }  
+      ]
+    },{
       "id": "wzyd",
       "name": "王者营地",
       "script": "",
