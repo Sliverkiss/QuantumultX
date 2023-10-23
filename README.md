@@ -51,6 +51,20 @@
 | :------------------------------: |
 | 3.获取重写成功后，移除附加组件 |
 
+#### 将变量填写到boxjs
+
+> Sliverkiss的脚本注释中通常都会有将XXX填写到XXX的描述，如果你有多账号的需求，建议阅读以下教程。
+
+1. 首先打开boxjs，点击我的。
+> 关于如何安装并使用boxjs, 请移步![boxjs官方文档](https://github.com/chavyleung/boxjs-doc)
+
+![](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/boxjs_1.png)
+
+2. 点击数据查看器, 在数据键输入要求填写的变量名, 如sxios_data, 点击VIEW查看具体内容, 此时看到的数据为空。
+
+![](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/boxjs_2.png)
+
+3. 在数据内容输入你抓到的cookie信息，如果有多个账号，就用@拼接，如cookie@cookie@cookie,最后点击保存。此时再运行脚本就不会出现未找到环境变量等问题了。
 
 ### QuantumultX Scripts Overview
 
