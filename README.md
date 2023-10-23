@@ -76,6 +76,7 @@
 | 米游社 | kayanouriko | ✅ |
 | 森空岛 | kayanouriko | ✅ |
 | 雨晨ios | Sliverkiss | ✅ |
+| 松鼠ios | Sliverkiss | ✅(2023.10.23) |
 | 亚朵酒店 | Sliverkiss | ✅ |
 | 腕表之家 | wf021325 | ✅ |
 | 起点读书 | MCdasheng | ✅ |
@@ -97,7 +98,7 @@
 | 百度贴吧 | blackmatrix7 | ✅ |
 | 花夏数娱 | Sliverkiss | ✅ |
 | ◾️◾️◾️◾️ | yuheng | ✅ |
-| 松鼠iosＶ2 | Sliverkiss | ✅ |
+| 松鼠iosＶ2 | Sliverkiss | ❌ |
 | 海信爱家 | Sliverkiss | ✅ |
 | 掌上飞车 |chiupam | ✅ |
 | 掌飞购物 | chiupam | ✅ |
