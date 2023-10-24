@@ -112,6 +112,8 @@
 | B站每日等级任务| ClydeTime | ✅ |
 | 巴哈姆特 |NobyDa | ✅ |
 | 喜马拉雅 | ClydeTime | ✅ |
+| 奇瑞汽车 | ClydeTime | ✅(2023.10.24) |
+
 
 ### 赞赏码
 

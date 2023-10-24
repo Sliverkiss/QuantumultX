@@ -28,6 +28,28 @@
        }  
       ]
     },{
+      "id": "chery",
+      "name": "奇瑞汽车",
+      "script": "",
+      "author": "@smallfawn",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Chery.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Chery.png"  
+      ],
+      "keys": ["chery_data"],
+      "descs_html": ["变量值:mobile-consumer-sapp.chery.cn请求头Authorization 去掉bearer "],
+      "settings": [
+       {
+        "id": "chery_data",
+        "name": "chery_data",
+        "val": "",
+        "type": "textarea",
+        "placeholder": "",
+        "desc": "变量值:mobile-consumer-sapp.chery.cn请求头Authorization 去掉bearer "
+       }  
+      ]
+    },{
       "id": "quark",
       "name": "夸克网盘",
       "script": "",
