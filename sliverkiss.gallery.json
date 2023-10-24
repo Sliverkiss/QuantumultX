@@ -101,7 +101,7 @@
         },{
             "config": "11 10 * * * https://gist.githubusercontent.com/Sliverkiss/3d9c00790143eba146c3ba798eda4696/raw/switch520.js, tag=Switch520签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Switch.png, enabled=false",
         },{
-            "config": "10 0 * * * https://gist.githubusercontent.com/Sliverkiss/2694a665b4e52d8788c18394201ff3eb/raw/quarkcloud.js, tag=夸克网盘签到签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png, enabled=false",
+            "config": "10 0 * * * https://gist.githubusercontent.com/Sliverkiss/2694a665b4e52d8788c18394201ff3eb/raw/quarkcloud.js, tag=夸克网盘签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/quark.conf, tag=夸克网盘签到获取token"
         },{
             "config": "0 10 * * * https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js, tag=Boxjs备份, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BoxJS.png, enabled=false",
@@ -127,7 +127,7 @@
         },{
             "config": "57 21 * * * https://raw.githubusercontent.com/smallfawn/QLScriptPublic/main/bnmdhg_wx.js, tag=巴奴毛肚火锅签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Bnmdhg.png, enabled=false",
         },{
-            "config": "5 8 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/hxek.js, tag=巴奴毛肚火锅签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxek.png, enabled=false",
+            "config": "5 8 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/hxek.js, tag=鸿星尔克签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxek.png, enabled=false",
         },
     ]
 }
