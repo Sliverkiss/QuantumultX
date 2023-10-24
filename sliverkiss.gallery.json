@@ -126,6 +126,8 @@
             "config": "09 18 * * * https://raw.githubusercontent.com/smallfawn/QLScriptPublic/main/chery.js, tag=奇瑞汽车,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Chery.png, enabled=false",
         },{
             "config": "57 21 * * * https://raw.githubusercontent.com/smallfawn/QLScriptPublic/main/bnmdhg_wx.js, tag=巴奴毛肚火锅签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Bnmdhg.png, enabled=false",
+        },{
+            "config": "5 8 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/hxek.js, tag=巴奴毛肚火锅签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxek.png, enabled=false",
         },
     ]
 }
