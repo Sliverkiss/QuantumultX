@@ -124,6 +124,8 @@
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/xmly.conf, tag=喜马拉雅签到cookie, update-interval=172800, opt-parser=false, enabled=true"
         },{
             "config": "09 18 * * * https://raw.githubusercontent.com/smallfawn/QLScriptPublic/main/chery.js, tag=奇瑞汽车,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Chery.png, enabled=false",
+        },{
+            "config": "57 21 * * * https://raw.githubusercontent.com/smallfawn/QLScriptPublic/main/bnmdhg_wx.js, tag=巴奴毛肚火锅签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Bnmdhg.png, enabled=false",
         },
     ]
 }

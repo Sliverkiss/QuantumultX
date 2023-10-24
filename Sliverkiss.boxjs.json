@@ -50,6 +50,28 @@
        }  
       ]
     },{
+      "id": "bnmdhg",
+      "name": "巴奴毛肚火锅",
+      "script": "",
+      "author": "@smallfawn",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Bnmdhg.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Bnmdhg.png"  
+      ],
+      "keys": ["bnmdhg"],
+      "descs_html": ["变量值:https://cloud.banu.cn/api/域名下member_id 多账号 @ 或换行分割"],
+      "settings": [
+       {
+        "id": "bnmdhg",
+        "name": "bnmdhg",
+        "val": "",
+        "type": "textarea",
+        "placeholder": "",
+        "desc": "变量值:https://cloud.banu.cn/api/域名下member_id 多账号 @ 或换行分割"
+       }  
+      ]
+    },{
       "id": "quark",
       "name": "夸克网盘",
       "script": "",
