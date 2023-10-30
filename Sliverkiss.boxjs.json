@@ -50,6 +50,69 @@
        }  
       ]
     },{
+      "id": "jhsh",
+      "name": "建行生活",
+      "author": "@FoKit",
+      "script": "https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js",
+      "descs_html": [""],
+      "icons": [
+        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jhsh.png",
+        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jhsh.png"
+      ],
+      "keys": ["JHSH_BODY", "JHSH_LOGIN_BODY","JHSH_DEVICEID","JHSH_MBC_UA","JHSH_GIFT"],
+      "settings": [
+        {
+          "id": "JHSH_BODY",
+          "name": "签到数据",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": ""
+        },{
+          "id": "JHSH_LOGIN_BODY",
+          "name": "刷新session数据",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": ""
+        },{
+          "id": "JHSH_DEVICEID",
+          "name": "设备deviceId",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": ""
+        },{
+          "id": "JHSH_MBC_UA",
+          "name": "MBC_UA",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": ""
+        },
+        {
+          "id": "JHSH_GIFT",
+          "name": "奖励类型",
+          "val": "2",
+          "type": "radios",
+          "desc": "选择连续签到奖励类型",
+          "items": [
+            {
+              "key": "1",
+              "label": "打车券"
+            },
+            {
+              "key": "2",
+              "label": "外卖券"
+            }
+          ]
+        }
+      ]
+    },{
       "id": "hxek",
       "name": "鸿星尔克",
       "script": "",
