@@ -126,8 +126,8 @@
         },{
             "config": "5 8 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/hxek.js, tag=鸿星尔克签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxek.png, enabled=false",
         },{
-            "config": "17 7 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js, tag=建行生活,img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ccbLife.jpg, enabled=true",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/jhsh.conf, tag=建行生活签到cookie, update-interval=172800, opt-parser=false, enabled=true"
+            "config": "30 7 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js, tag=建行生活, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ccbLife.jpg, enabled=true",
+            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/jhsh.conf, tag=建行生活签到获取token"
         },
     ]
 }
