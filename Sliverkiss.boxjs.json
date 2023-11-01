@@ -175,6 +175,28 @@
        }  
       ]
     },{
+      "id": "kbj",
+      "name": "康佰家大药房",
+      "script": "",
+      "author": "@Sliverkiss",
+      "repo": "",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Kbj.png",
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Kbj.png"  
+      ],
+      "keys": ["kbj_data"],
+      "descs_html": [""],
+      "settings": [
+       {
+        "id": "kbj_data",
+        "name": "token",
+        "val": "",
+        "type": "textarea",
+        "placeholder": "",
+        "desc": ""
+       }  
+      ]
+    },{
       "id": "ysfＶ2",
       "name": "云闪付签到",
       "script": "",
