@@ -66,68 +66,6 @@
 
 3. 在数据内容输入你抓到的cookie信息，如果有多个账号，就用@拼接，如cookie@cookie@cookie,最后点击保存。此时再运行脚本就不会出现未找到环境变量等问题了。
 
-### QuantumultX Scripts Overview
-
-|                       Application                       |                         Author                          |   Available    |
-| :-----------------------------------------------------: | :----------------------------------------------------------: | :------------: | 
-| 中免会员小程序 | Sliverkiss | ✅ |
-| 高德地图 | wf021325 | ✅ |
-| iios | wf021325 | ❌(2023.10.24) |
-| 米游社 | kayanouriko | ✅ |
-| 森空岛 | kayanouriko | ✅ |
-| 雨晨ios | Sliverkiss | ✅ |
-| 松鼠ios | Sliverkiss | ✅(2023.10.23) |
-| 亚朵酒店 | Sliverkiss | ✅ |
-| 腕表之家 | wf021325 | ✅ |
-| 起点读书 | MCdasheng | ✅ |
-| AcFun | MCdasheng | ✅ |
-| 天翼云盘 | MCdasheng | ✅ |
-| macat | MCdasheng | ✅ |
-| 霸王茶姬 | MCdasheng | ✅ |
-| 途虎养车 | Crazy-Z7 | ✅ |
-|  小豆苗 | wf021325 | ✅ |
-| 华住会 | wf021325 | ✅ |
-| 捷停车 | Fokit | ✅ |
-| 美团买菜 | JoJoJotarou | ✅ |
-| 元气森林会员中心 | Sliverkiss | ✅ |
-| 沪上阿姨 | Sliverkiss | ✅ |
-| 哈啰单车 | Sliverkiss | ✅ |
-| 知轩藏书 | Sliverkiss | ✅ |
-| 阿里云 | zqzess | ✅ |
-| 什么值得买 | blackmatrix7 | ✅ |
-| 百度贴吧 | blackmatrix7 | ✅ |
-| 花夏数娱 | Sliverkiss | ✅ |
-| ◾️◾️◾️◾️ | yuheng | ✅ |
-| 松鼠iosＶ2 | Sliverkiss | ❌ |
-| 海信爱家 | Sliverkiss | ✅ |
-| 掌上飞车 |chiupam | ✅ |
-| 掌飞购物 | chiupam | ✅ |
-| tf自动加入 | MCdasheng | ✅ |
-| 雀巢会员俱乐部 | Sliverkiss | ✅ |
-| Switch520 | Sliverkiss | ✅ |
-| 夸克网盘 | Sliverkiss | ✅ |
-| 轻之文库 | Sliverkiss | ✅ |
-| 美团签到 |chavyleung | ✅ |
-| STLXZ |Sliverkiss | ✅ |
-| B站每日等级任务| ClydeTime | ✅ |
-| 巴哈姆特 |NobyDa | ✅ |
-| 喜马拉雅 | ClydeTime | ✅ |
-| 奇瑞汽车 | smallfawn | ✅(2023.10.24) |
-| 巴奴毛肚火锅 | smallfawn | ✅(2023.10.24) |
-| 鸿星尔克 | smallfawn | ✅(2023.10.24) |
-| 建行生活 | Fokit | ✅(2023.10.30) |
-| 达美乐披萨 | Sliverkiss | ✅(2023.10.30) |
-| 托迈库客 | Fokit | ✅(2023.11.03) |
-
-
-### 赞赏码
-
-<div align="center">
-  <a href=""><img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/QRcode.png" style="width:300px" align="center" alt=""/></a>
-  <strong>你的每一分赞赏，都是我更新的动力~</strong>
-</div>
-
-
  ## 免责声明
 * 项目内所涉及脚本、LOGO 仅为资源共享、学习参考之目的，不保证其合法性、正当性、准确性；切勿使用项目做任何商业用途或牟利；
 
