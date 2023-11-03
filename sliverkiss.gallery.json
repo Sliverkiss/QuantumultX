@@ -131,6 +131,9 @@
         },{
             "config": "21 10 * * * https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js, tag=达美乐披萨, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dlm.png, enabled=true",
             "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/dlm.conf, tag=达美乐披萨获取token"
+        },{
+            "config": "15 10 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js, tag=托迈酷客,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tmkk.png,enabled=true",
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/tmkk.conf, tag=托迈酷客获取token"
         },
     ]
 }
