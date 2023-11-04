@@ -4,10 +4,10 @@
     "task": [
         {
             "config": "1 0 * * * https://gist.githubusercontent.com/Sliverkiss/7f16bab92e312d1f0e520ca20d389924/raw/29b180093d17edd6ccf0a6fdce14a8d9ec7b06df/zmhy.js, tag=中免会员小程序签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zmhy.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/zmhy.conf, tag=中免会员获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/zmhy.conf, tag=中免会员获取token"
         },{
             "config": "2 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, tag=高德地图打车签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Gddt.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/gddt.conf, tag=高德地图获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/gddt.conf, tag=高德地图获取token"
         },{
             "config": "5 0 * * * https://raw.githubusercontent.com/kayanouriko/quantumultx-mihoyobbs-auto-helper/main/src/mihoyobbs-auto-helper.js, tag=米游社小助手, img-url=https://raw.githubusercontent.com/kayanouriko/quantumultx-mihoyobbs-auto-helper/main/assets/gallery-icon.png, enabled=false",
             "addons": "https://raw.githubusercontent.com/kayanouriko/quantumultx-mihoyobbs-auto-helper/main/task/mihoyobbs.conf, tag=配置米游社小助手"
@@ -16,63 +16,63 @@
             "addons": "https://raw.githubusercontent.com/kayanouriko/quantumultx-skland-auto-sign/main/task/skland.conf, tag=配置森空岛小助手"
         },{
             "config": "11 11 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/sxios.js, tag=松鼠ios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sxios.jpg, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/sxios.conf, tag=松鼠ios获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/sxios.conf, tag=松鼠ios获取token"
         },{
             "config": "7 0 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/yuchenios.js, tag=雨晨ios签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/yuchenios.conf, tag=雨晨ios获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/yuchenios.conf, tag=雨晨ios获取token"
         },{
             "config": "8 0 * * * https://gist.githubusercontent.com/Sliverkiss/2e2093bfd5f524d58c8e90fed9beacfd/raw/e399523e428f3c173ec4b95c892725006c3128ff/adjd.js, tag=亚朵酒店签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Adjd.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/adjd.conf, tag=亚朵酒店获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/adjd.conf, tag=亚朵酒店获取token"
         },{
             "config": "9 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/wbzj.js, tag=腕表之家签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wbzj.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/wbzj.conf, tag=腕表之家获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/wbzj.conf, tag=腕表之家获取token"
         },{
             "config": "34 10 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.js, img-url=https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/qidian.png, tag=起点读书, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/qdds.conf, tag=起点读书获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/qdds.conf, tag=起点读书获取token"
         },{
             "config": "11 7 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/acfun.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/acfun.png, tag=AcFun签到, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/acfun.conf, tag=AcFun获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/acfun.conf, tag=AcFun获取token"
         },{
             "config": "30 5 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/ty.js, tag=天翼云盘, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tyyp.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/tyyp.conf, tag=天翼云盘获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/tyyp.conf, tag=天翼云盘获取token"
         },{
             "config": "30 10 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/macat.js, tag=macat签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Skicat.png, enabled=false",
         },{
             "config": "0 10 * * * https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js, tag=霸王茶姬小程序签到, img-url=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/bwcj.conf, tag=霸王茶姬获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/bwcj.conf, tag=霸王茶姬获取token"
         },{
             "config": "40 8 * * * https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js, tag=途虎养车积分签到, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/thyc.conf, tag=途虎获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/thyc.conf, tag=途虎获取token"
         },{
             "config": "16 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/xdm.js, tag=小豆苗app签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Xdm.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/xdm.conf, tag=小豆苗获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/xdm.conf, tag=小豆苗获取token"
         },{
             "config": "1 0 * * * https://raw.githubusercontent.com/wf021325/qx/master/task/hzh.js, tag=华住会, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hzh.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/hzh.conf, tag=华住会获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/hzh.conf, tag=华住会获取token"
         },{
             "config": "15 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Jtc.png, tag=捷停车签到, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/jtc.conf, tag=捷停车获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/jtc.conf, tag=捷停车获取token"
         },{
             "config": "0 6,8 * * * https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.mallcoin.task.js, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Mtmc.png, tag=美图买菜任务, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/mtmc.conf, tag=美团买菜获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/mtmc.conf, tag=美团买菜获取token"
         },{
             "config": "30 0 6 * * * https://raw.githubusercontent.com/Raphael689/RW/master/Scripts/yqslhy.js, tag=元气森林会员中心,img-url=https://raw.githubusercontent.com/Raphael689/RW/master/iCons/yqsl.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/yqsl.conf, tag=元气森林会员中心获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/yqsl.conf, tag=元气森林会员中心获取token"
         },{
             "config": "21 0 5 * * * https://gist.githubusercontent.com/Sliverkiss/e427dc3164d0c008f8d282f180d7fc00/raw/280945016940399a593955e40ce0d4591a5292c5/hsay.js, tag=沪上阿姨小程序签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hsay.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/hsay.conf, tag=沪上阿姨获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/hsay.conf, tag=沪上阿姨获取token"
         },{
             "config": "21 0 0 * * * https://gist.githubusercontent.com/Sliverkiss/4e0081f7b18a2cea9dbdf13545e60885/raw/d53857028ced29aed98affb5d4a602b2a8bf94cf/hldc.js, tag=哈啰单车奖励金签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hldc.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/hldc.conf, tag=哈啰单车获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/hldc.conf, tag=哈啰单车获取token"
         },{
             "config": "25 1 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/zhixuan.js, tag=知轩藏书签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zxcs.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/zxcs.conf, tag=知轩藏书获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/zxcs.conf, tag=知轩藏书获取token"
         },{
             "config": "0 7 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, tag=阿里云签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/aliyun.conf, tag=阿里云获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/aliiyun.conf, tag=阿里云获取token"
         },{
             "config": "5 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js, tag=什么值得买每日签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Smzdm.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/smzdm.conf, tag=什么值得买获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/smzdm.conf, tag=什么值得买获取token"
         },{
             "config":"30 10 * * *  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js, tag=百度贴吧, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba.png, enabled=false",
             "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.qxrewrite,tag=贴吧_获取Cookie"
@@ -82,24 +82,24 @@
             "config":"0 9 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js, tag=网上国电费查询, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wsgw.jpg, enabled=false",
         },{
             "config":"52 7 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/Hisense.js, tag=海信爱家, img-url=https://github.com/FoKit/Scripts/blob/main/images/hisense.png?raw=true, enabled=false",
-            "addons":"https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/hisense.conf,tag=海信爱家获取Cookie"
+            "addons":"https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/hisense.conf,tag=海信爱家获取Cookie"
         },{
             "config":"0 10 0,21 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zsfc/zsfc.js, tag=掌上飞车,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zsfc.png, enabled=false",
-            "addons":"https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/zsfc.conf,tag=掌上飞车获取Cookie"
+            "addons":"https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/zsfc.conf,tag=掌上飞车获取Cookie"
         },{
             "config":"0 11 0,21 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zsfc/zsfc.shop.js, tag=掌飞购物, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zsfc.png, enabled=false",
-            "addons":"https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/zsfc.conf,tag=掌上飞车获取Cookie"
+            "addons":"https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/zsfc.conf,tag=掌上飞车获取Cookie"
         },{
             "config":"0 * * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TestFlight.js, tag=TestFlight自动加入, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true",
-            "addons":"https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/testflight.conf,tag=TestFlight自动加入获取appId"
+            "addons":"https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/TestFlight.conf,tag=TestFlight自动加入获取appId"
         },{
             "config": "21 30 0 * * * https://gist.githubusercontent.com/Sliverkiss/f533ada8d658a0cbbe4b2e791c3b0ac8/raw/be3d9b74fe1cde69e6d39b599e5526110c996958/nestle.js, tag=雀巢会员俱乐部签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Nestle.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/nestle.conf, tag=雀巢获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/nestle.conf, tag=雀巢获取token"
         },{
             "config": "11 10 * * * https://gist.githubusercontent.com/Sliverkiss/3d9c00790143eba146c3ba798eda4696/raw/switch520.js, tag=Switch520签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Switch.png, enabled=false",
         },{
             "config": "10 0 * * * https://gist.githubusercontent.com/Sliverkiss/2694a665b4e52d8788c18394201ff3eb/raw/quarkcloud.js, tag=夸克网盘签到, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png, enabled=false",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/quark.conf, tag=夸克网盘签到获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/quark.conf, tag=夸克网盘签到获取token"
         },{
             "config": "0 10 * * * https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js, tag=Boxjs备份, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BoxJS.png, enabled=false",
         },{
@@ -113,12 +113,12 @@
             "config": "11 8 * * * https://gist.githubusercontent.com/Sliverkiss/b1b8b87351ff3aca189c5addaa054430/raw/stlxz.js, tag=STLXZ签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Stlxz.png, enabled=false",
         },{
             "config": "10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png, enabled=true",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/bilibili.conf, tag=b站签到获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/bilibili.conf, tag=b站签到获取token"
         },{
             "config": "0 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js, tag=巴哈姆特签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/bahamutGame.png, enabled=true",
         },{
             "config": "35 8 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js, tag=喜马拉雅签到任务, img-url=https://raw.githubusercontent.com/HuiDoY/Icon/main/mini/Color/ximalaya.png, enabled=true",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/xmly.conf, tag=喜马拉雅签到cookie, update-interval=172800, opt-parser=false, enabled=true"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/xmly.conf, tag=喜马拉雅签到cookie, update-interval=172800, opt-parser=false, enabled=true"
         },{
             "config": "09 18 * * * https://raw.githubusercontent.com/smallfawn/QLScriptPublic/main/chery.js, tag=奇瑞汽车,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Chery.png, enabled=false",
         },{
@@ -127,10 +127,10 @@
             "config": "5 8 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/hxek.js, tag=鸿星尔克签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxek.png, enabled=false",
         },{
             "config": "30 7 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js, tag=建行生活, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ccbLife.jpg, enabled=true",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/jhsh.conf, tag=建行生活签到获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/jhsh.conf, tag=建行生活签到获取token"
         },{
             "config": "21 10 * * * https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js, tag=达美乐披萨, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dlm.png, enabled=true",
-            "addons": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/task/dlm.conf, tag=达美乐披萨获取token"
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/dlm.conf, tag=达美乐披萨获取token"
         },{
             "config": "15 10 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js, tag=托迈酷客,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tmkk.png,enabled=true",
             "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/tmkk.conf, tag=托迈酷客获取token"

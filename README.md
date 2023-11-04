@@ -27,11 +27,12 @@
 
 
 ### 安装链接
-  * 任务仓库订阅: [sliverkiss.gallery.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.gallery.json)
 
-  * boxjs订阅: [sliverkiss.boxjs.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/Sliverkiss.boxjs.json)
+  * 任务仓库订阅: [sliverkiss.gallery.json](https://gist.githubusercontent.com/Sliverkiss/a7496bd073820942b44a9b36874aaf4c/raw/sliverkiss.gallery.json)
 
-  * icon图标集: [sliverkiss.icon.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.icon.json)
+  * boxjs订阅: [sliverkiss.boxjs.json](https://gist.githubusercontent.com/Sliverkiss/18bd01be356360a8065a21ea71685ad3/raw/sliverkiss.boxjs.json)
+
+  * icon图标集: [sliverkiss.icon.json](https://gist.githubusercontent.com/Sliverkiss/18bd01be356360a8065a21ea71685ad3/raw/sliverkiss.icon.json)
 
  ## 免责声明
 * 项目内所涉及脚本、LOGO 仅为资源共享、学习参考之目的，不保证其合法性、正当性、准确性；切勿使用项目做任何商业用途或牟利；
