@@ -134,6 +134,9 @@
         },{
             "config": "15 10 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js, tag=托迈酷客,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tmkk.png,enabled=true",
             "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/tmkk.conf, tag=托迈酷客获取token"
+        },{
+            "config": "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iqiyi.png,enabled=true",
+            "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/iqiyi.conf, tag=爱奇艺获取token"
         },
     ]
 }
