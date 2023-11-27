@@ -1,0 +1,130 @@
+/*************************************
+Action project name: automatic integration of icon json files
+Author: @czy13724 OCD exclusive
+DESCRIPTION: When you build an icon repository for your own use, due to too many icons, one by one, it is more troublesome to deal with the raw format of the file, so this workflow. 
+Function: Integrate all the iconraw of the corresponding repository into one json file, easy to use for Quantumult X, Surge, Loon and other software icon subscription import.
+Operation:
+1. First, create a new warehouse and name it as you like, take LEVI as an example. Create a new subfolder in the repository and name it as you like, take levi as an example. 
+2. Click on action and create a workflow, put in the code below and follow the instructions to replace LEVI and levi. 
+3. Manually run it once and check in the log to see if it traverses through all the iconraws and if there are any errors.
+Warn:
+1. Known errors: Upload Artifact can be solved by modifying the path or creating a new “package.json” file under the repository. Modify the path in echo "ARTIFACT_PATH=LEVI" >> $GITHUB_ENV here, modify the LEVI after the equals sign.
+2. you want to modify the contents of all I will be in the code behind the comments, you need to use the time to delete the comments in Chinese.
+**************************************
+Action项目名称：全自动整合图标json文件
+作者：@czy13724 强迫症专属
+说明：当你自建一个图标仓库进行自用时，由于图标过多，一个一个的处理出raw格式的文件较为麻烦，因此出现该工作流。
+功能：将对应仓库所有的图标raw整合为一个json文件，方便用于Quantumult X，Surge，Loon等软件的图标订阅导入。
+操作：
+1. 先新建一个仓库并命名为你喜欢的名字，以下以LEVI为例。在该仓库里新建一个子文件夹并命名为你喜欢的名字，以下以levi为例。
+2. 点击action并创建一个工作流（workflow），将下方代码放入并按照说明将LEVI和levi进行替换。
+3. 手动运行一次检查在日志里查看是否能历遍出所有的图标raw以及是否会出现错误。
+注意：
+1. 已知错误有：Upload Artifact这里报错可以通过修改路径或在仓库下新建一个package.json文件解决。修改路径在echo "ARTIFACT_PATH=LEVI" >> $GITHUB_ENV这里，修改等号后的LEVI即可
+2. 你要修改的内容我全部会在代码后方进行注释，你使用的时候需要将注释删除。
+**************************************
+name: Generate Image JSON
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'QuantumultX/*'
+  workflow_dispatch:
+    inputs:
+      dummy-trigger:
+        description: 'Dummy trigger for manual run'
+        default: 'Run workflow'
+
+jobs:
+  generate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set up Node.js
+      uses: actions/setup-node@v4.0.0
+      with:
+        node-version: '16'
+
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Display Node.js version
+      run: node --version
+
+    - name: Debug - Current working directory and list files
+      run: |
+        pwd
+        ls -la
+    - name: Generate JSON
+      run: |
+        IMAGES_FOLDER="icon"
+        JSON_FILE="sliverkiss.icons.json"
+        DESTINATION_FOLDER="QuantumultX"
+        echo "Checking current directory:"
+        pwd
+        echo "Listing files in icon:"
+        ls -al $IMAGES_FOLDER
+        # Create an empty JSON file
+        echo "[]" > $JSON_FILE
+        # Create a JSON file header
+        echo "{" > $JSON_FILE
+        echo '  "name": "Sliverkiss图标订阅",' >> $JSON_FILE
+        echo '  "description": "收集一些自己常用的图标 by @Sliverkiss",' >> $JSON_FILE
+        echo '  "icons": [' >> $JSON_FILE
+        
+        # Populate the array with image information
+        for FILE_PATH in $IMAGES_FOLDER/*; do
+          if [ -f "$FILE_PATH" ]; then
+            FILE_NAME=$(basename "$FILE_PATH")
+            RAW_URL="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/$FILE_PATH"
+        # If it is not the first icon, add a comma at the end of the previous icon
+          if [ "$FIRST_ITEM" = false ]; then
+        # Add a comma to the end of the previous icon
+            sed -i '$s/}$/},/' $JSON_FILE
+          fi
+    
+            # Append image information to the JSON file
+            echo -n ", " >> $JSON_FILE
+            # Add image information to JSON file
+            echo '  {' >> $JSON_FILE
+            echo '    "name": "'$FILE_NAME'",' >> $JSON_FILE
+            echo '    "url": "'$RAW_URL'"' >> $JSON_FILE
+            echo '  },' >> $JSON_FILE
+          fi
+        done
+
+            # Remove the last comma
+            sed -i '$s/,$//' $JSON_FILE
+
+            # Add JSON file at the end
+            echo ']' >> $JSON_FILE
+            echo '}' >> $JSON_FILE
+            
+        # Remove the leading comma
+        sed -i 's/^\(.\{2\}\)//' $JSON_FILE
+
+        echo "Checking generated JSON file:"
+        cat $JSON_FILE
+      
+        # Set an environment variable with the path to the JSON file
+        echo "ARTIFACT_PATH=QuantumultX" >> $GITHUB_ENV
+        
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: sliverkiss.icons.json
+        path: ${{ env.ARTIFACT_PATH }}
+
+     - name: Push JSON to Repository
+      run: |
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+        git add QuantumultX/sliverkiss.icons.json
+        git commit -m "Update sliverkiss.icons.json"
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    
