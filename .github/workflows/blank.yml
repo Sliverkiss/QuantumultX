@@ -39,14 +39,14 @@ jobs:
         DESTINATION_FOLDER="QuantumultX"
         echo "Checking current directory:"
         pwd
-        echo "Listing files in icon:"
+        echo "Listing files in leviicons:"
         ls -al $IMAGES_FOLDER
         # Create an empty JSON file
         echo "[]" > $JSON_FILE
-        # Create a JSON file header
+        # 创建一个 JSON 文件头部
         echo "{" > $JSON_FILE
         echo '  "name": "Sliverkiss图标订阅",' >> $JSON_FILE
-        echo '  "description": "收集一些自己常用的图标 by @Sliverkiss",' >> $JSON_FILE
+        echo '  "description": "收集一些自己常用的图标 by @sliverkiss",' >> $JSON_FILE
         echo '  "icons": [' >> $JSON_FILE
         
         # Populate the array with image information
@@ -54,15 +54,15 @@ jobs:
           if [ -f "$FILE_PATH" ]; then
             FILE_NAME=$(basename "$FILE_PATH")
             RAW_URL="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/$FILE_PATH"
-        # If it is not the first icon, add a comma at the end of the previous icon
+        # 如果不是第一个图标，则在前一个图标的末尾添加逗号
           if [ "$FIRST_ITEM" = false ]; then
-        # Add a comma to the end of the previous icon
+        # 在前一个图标的末尾添加逗号
             sed -i '$s/}$/},/' $JSON_FILE
           fi
     
             # Append image information to the JSON file
             echo -n ", " >> $JSON_FILE
-            # Add image information to JSON file
+            # 将图片信息添加到 JSON 文件
             echo '  {' >> $JSON_FILE
             echo '    "name": "'$FILE_NAME'",' >> $JSON_FILE
             echo '    "url": "'$RAW_URL'"' >> $JSON_FILE
@@ -70,10 +70,10 @@ jobs:
           fi
         done
 
-            # Remove the last comma
+            # 移除最后一个逗号
             sed -i '$s/,$//' $JSON_FILE
 
-            # Add JSON file at the end
+            # 添加 JSON 文件尾部
             echo ']' >> $JSON_FILE
             echo '}' >> $JSON_FILE
             
@@ -84,22 +84,21 @@ jobs:
         cat $JSON_FILE
       
         # Set an environment variable with the path to the JSON file
-        echo "ARTIFACT_PATH=QuantumultX" >> $GITHUB_ENV
-        
+        echo "ARTIFACT_PATH=LeviIcons" >> $GITHUB_ENV
+
     - name: Upload Artifact
       uses: actions/upload-artifact@v2
       with:
         name: sliverkiss.icons.json
         path: ${{ env.ARTIFACT_PATH }}
-    
-    - name: Push JSON to Repository
+
+    - name: Push to TEST Repository
       run: |
         git config user.name "${{ github.actor }}"
         git config user.email "${{ github.actor }}@users.noreply.github.com"
-        git add QuantumultX/sliverkiss.icons.json
-        git commit -m "Update sliverkiss.icons.json"
-        git push origin main
+        git add .
+        git commit -m "Add generated JSON file"
+        git push origin HEAD:main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
     
