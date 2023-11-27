@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'QuantumultX/*'
+      - '**/QuantumultX/icon/**'
   workflow_dispatch:
     inputs:
       dummy-trigger:
