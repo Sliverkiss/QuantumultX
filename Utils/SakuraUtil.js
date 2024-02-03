@@ -13,7 +13,7 @@ async function loadSakuraUtils() {
     if (code && Object.keys(code).length) {
         console.log(`✅ ${$.name}: 缓存中存在SakuraUtil代码, 跳过下载`)
         eval(code)
-        return createUtils();
+        return creatUtils();
     }
     console.log(`🚀 ${$.name}: 开始下载SakuraUtil代码`)
     return new Promise(async (resolve) => {
@@ -22,7 +22,7 @@ async function loadSakuraUtils() {
         ).then((fn) => {
             $.setdata(fn, SakuraUtil_code)
             eval(fn)
-            const SakuraUtil = createUtils();
+            const SakuraUtil = creatUtils();
             console.log(`✅ SakuraUtil加载成功, 请继续`)
             resolve(SakuraUtil)
         })
