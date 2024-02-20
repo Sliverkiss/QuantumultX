@@ -1,104 +1,54 @@
-name: Generate Image JSON
+name: Image Workflow
 
 on:
   push:
-    branches:
-      - main
     paths:
-      - '**/QuantumultX/icon/**'
+      - 'icon/**' 
+  pull_request:
+    paths:
+      - 'icon/**' 
   workflow_dispatch:
-    inputs:
-      dummy-trigger:
-        description: 'Dummy trigger for manual run'
-        default: 'Run workflow'
 
 jobs:
-  generate-json:
+  generate_json:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Set up Node.js
-      uses: actions/setup-node@v4.0.0
-      with:
-        node-version: '16'
-
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Display Node.js version
-      run: node --version
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
 
-    - name: Debug - Current working directory and list files
+    - name: Install dependencies
       run: |
-        pwd
-        ls -la
+        python -m pip install --upgrade pip
+        pip install requests
+
     - name: Generate JSON
       run: |
-        IMAGES_FOLDER="icon"
-        JSON_FILE="sliverkiss.icons.json"
-        DESTINATION_FOLDER="QuantumultX"
-        echo "Checking current directory:"
-        pwd
-        echo "Listing files in leviicons:"
-        ls -al $IMAGES_FOLDER
-        # Create an empty JSON file
-        echo "[]" > $JSON_FILE
-        # 创建一个 JSON 文件头部
-        echo "{" > $JSON_FILE
-        echo '  "name": "Sliverkiss图标订阅",' >> $JSON_FILE
-        echo '  "description": "收集一些自己常用的图标 by @sliverkiss",' >> $JSON_FILE
-        echo '  "icons": [' >> $JSON_FILE
-        
-        # Populate the array with image information
-        for FILE_PATH in $IMAGES_FOLDER/*; do
-          if [ -f "$FILE_PATH" ]; then
-            FILE_NAME=$(basename "$FILE_PATH")
-            RAW_URL="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/$FILE_PATH"
-        # 如果不是第一个图标，则在前一个图标的末尾添加逗号
-          if [ "$FIRST_ITEM" = false ]; then
-        # 在前一个图标的末尾添加逗号
-            sed -i '$s/}$/},/' $JSON_FILE
-          fi
-    
-            # Append image information to the JSON file
-            echo -n ", " >> $JSON_FILE
-            # 将图片信息添加到 JSON 文件
-            echo '  {' >> $JSON_FILE
-            echo '    "name": "'$FILE_NAME'",' >> $JSON_FILE
-            echo '    "url": "'$RAW_URL'"' >> $JSON_FILE
-            echo '  },' >> $JSON_FILE
-          fi
-        done
+        python .github/scripts/generate_image_json.py
 
-            # 移除最后一个逗号
-            sed -i '$s/,$//' $JSON_FILE
+    - name: Load output variables
+      run: |
+        export $(dotenv -f output.env list)
 
-            # 添加 JSON 文件尾部
-            echo ']' >> $JSON_FILE
-            echo '}' >> $JSON_FILE
-            
-        # Remove the leading comma
-        sed -i 's/^\(.\{2\}\)//' $JSON_FILE
+    - name: Save state
+      run: echo "ICONS_JSON_PATH=${ICONS_JSON_PATH}" >> $GITHUB_STATE
 
-        echo "Checking generated JSON file:"
-        cat $JSON_FILE
-      
-        # Set an environment variable with the path to the JSON file
-        echo "ARTIFACT_PATH=LeviIcons" >> $GITHUB_ENV
-
-    - name: Upload Artifact
+    - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
-        name: sliverkiss.icons.json
-        path: ${{ env.ARTIFACT_PATH }}
+        name: json-artifact
+        path: $ICONS_JSON_PATH
 
-    - name: Push to TEST Repository
+    - name: Show working directory contents (After generate_json.py)
+      run: ls -R
+
+    - name: Debug file existence and content
       run: |
-        git config user.name "${{ github.actor }}"
-        git config user.email "${{ github.actor }}@users.noreply.github.com"
-        git add .
-        git commit -m "Add generated JSON file"
-        git push origin HEAD:main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    
+        echo "Current working directory:" $(pwd)
+        echo "List of files in the directory:" $(ls -R)
+        cat $ICONS_JSON_PATH
