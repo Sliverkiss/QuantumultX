@@ -3,10 +3,10 @@ name: Image Workflow
 on:
   push:
     paths:
-      - 'icon/**' 
+      - 'icon/**' # 监视 icons 文件夹及其子文件夹下的内容
   pull_request:
     paths:
-      - 'icon/**' 
+      - 'icon/**' # 监视 icons 文件夹及其子文件夹下的内容
   workflow_dispatch:
 
 jobs:
@@ -30,25 +30,21 @@ jobs:
     - name: Generate JSON
       run: |
         python .github/scripts/generate_image_json.py
-
-    - name: Load output variables
-      run: |
-        export $(dotenv -f output.env list)
-
-    - name: Save state
-      run: echo "ICONS_JSON_PATH=${ICONS_JSON_PATH}" >> $GITHUB_STATE
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
         name: json-artifact
-        path: $ICONS_JSON_PATH
+        path: ${{ github.workspace }}/sliverkiss.icon.json
 
-    - name: Show working directory contents (After generate_json.py)
-      run: ls -R
-
-    - name: Debug file existence and content
+    - name: Push to QuantumultX Repository
       run: |
-        echo "Current working directory:" $(pwd)
-        echo "List of files in the directory:" $(ls -R)
-        cat $ICONS_JSON_PATH
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+        git add .
+        git commit -m "自动更新图标仓库"
+        git push origin HEAD:main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
