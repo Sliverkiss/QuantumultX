@@ -3,18 +3,6 @@
 "description": "收集一些自己常用的图标 by @sliverkiss",
 "icons": [
   {
-  "name": "20231125191600.jpg",
-  "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/20231125191600.jpg"
-},
-  {
-  "name": "20231125224931.jpg",
-  "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/20231125224931.jpg"
-},
-  {
-  "name": "20231125230604.jpg",
-  "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/20231125230604.jpg"
-},
-  {
   "name": "Adjd.png",
   "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Adjd.png"
 },
@@ -107,10 +95,6 @@
   "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hldc.png"
 },
   {
-  "name": "Home.png",
-  "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Home.png"
-},
-  {
   "name": "Hsay.png",
   "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hsay.png"
 },
@@ -167,10 +151,6 @@
   "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Mtmc.png"
 },
   {
-  "name": "My ox.png",
-  "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/My ox.png"
-},
-  {
   "name": "Nestle.png",
   "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Nestle.png"
 },
@@ -181,10 +161,6 @@
   {
   "name": "Prw.png",
   "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Prw.png"
-},
-  {
-  "name": "QRcode.png",
-  "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/QRcode.png"
 },
   {
   "name": "Quark.png",
@@ -269,14 +245,6 @@
   {
   "name": "aoliao.png",
   "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/aoliao.png"
-},
-  {
-  "name": "baby.jpg",
-  "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/baby.jpg"
-},
-  {
-  "name": "background.PNG",
-  "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/background.PNG"
 },
   {
   "name": "bgps.png",
