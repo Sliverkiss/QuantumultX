@@ -37,7 +37,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: json-artifact
-        path: ${{ github.workspace }}/sliverkiss.icons.json
+        path: ${{ github.workspace }}/sliverkiss.icon.json
 
     - name: Push to QuantumultX Repository
       run: |
