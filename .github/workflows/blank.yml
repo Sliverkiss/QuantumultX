@@ -39,12 +39,27 @@ jobs:
         name: json-artifact
         path: ${{ github.workspace }}/sliverkiss.icons.json
 
-    - name: Push to QuantumultX Repository
+    - name: Check for changes
+      id: check_changes
       run: |
-        git config user.name "${{ github.actor }}"
-        git config user.email "${{ github.actor }}@users.noreply.github.com"
-        git add .
-        git commit -m "自动更新图标仓库"
-        git push origin HEAD:main
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "未监测到变动，跳过提交"
+          else
+            echo "::set-output name=changes_exist::true"
+            echo "已监测到变动，执行下一步骤"
+          fi
+
+    
+    - name: Commit and push if changes exist
+      run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add .
+          if git diff --staged --quiet; then
+            echo "未监测到变动，跳过提交"
+          else
+            git commit -m "自动更新图标仓库""
+            git push origin HEAD:main 
+          fi
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
