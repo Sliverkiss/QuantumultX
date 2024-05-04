@@ -1,7 +1,6 @@
 <div>
-  <a href="https://t.me/sliverkiss"><img alt="" src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Home.png"/></a> 
+  <a href="https://t.me/sliverkiss"><img alt="" src="" width="380px"/></a> 
 </div>
-
 <h2>🌸Sakura Scripts</h1>
 <h4>Collection of Scripts written for QuantumultX iOS App </h4>
 <a href="https://github.com/Sliverkiss/QuantumultX/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sliverkiss/QuantumultX?color=yellow&logo=riseup&logoColor=yellow&style=flat-square"></a>
@@ -15,23 +14,13 @@
 
 本仓库主要用于收集和整理各位大佬写的脚本，以便能够快速找到所需要的项目，更好地服务于QuantumultX软件的使用者。本仓库仅负责整理链接订阅，没有任何的脚本文件，所以请不要Fork。如果你对本项目有任何意见，请在issue上提出。Thank you～
 
-> 如有任何疑问，请通过tg机器人联系我👉[@Sliverkiss](https://t.me/sliverkiss_bot)
-
-### 前言
-
-1. 当使用该项目的前提下, 使用重写仅适用于单账号, 当你有多账号需求时, 请使用boxjs根据脚本说明手动填入相关变量.
-
-2. 使用该项目之前, 你需要提前了解如何使用 quantumultx 拉取远程仓库和执行脚本.
-
-3. 目前 quantumultx 并不会自动升级远程配置的脚本, 当你发现脚本功能不可用时, 可先看该项目是否已经更新修复了, 再尝试在 quantumultx 内更新脚本以获取最新的修复.
-
 ### 安装链接
 
 [任务仓库订阅](https://gist.githubusercontent.com/Sliverkiss/a7496bd073820942b44a9b36874aaf4c/raw/sliverkiss.gallery.json)｜[boxjs订阅](https://gist.githubusercontent.com/Sliverkiss/18bd01be356360a8065a21ea71685ad3/raw/sliverkiss.boxjs.json)｜[icon图标集](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.icons.json)
 
 ### 脚本列表(兼容NE/Node环境)
 
-#### 🟢正常可用
+#### 🟢 正常可用
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hsay.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/tpt.png" style="border-radius: 5px;" width="40px">
@@ -69,13 +58,13 @@
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hax.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/missevan.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/naixue.png" style="border-radius: 5px;" width="40px">
-#### 🟡等待修复/部分失效
+#### 🟡 等待修复/部分失效
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xxyx.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zippo.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Linovel.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dmzj.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ccbLife.jpg" style="border-radius: 5px;" width="40px">
-#### 🔴停止维护/已失效
+#### 🔴 停止维护/已失效
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cwm.png" style="border-radius: 5px;" width="40px">
 
  ## 免责声明
