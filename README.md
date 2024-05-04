@@ -55,11 +55,11 @@
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hax.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/missevan.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/naixue.png" style="border-radius: 5px;" width="40px">
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dmzj.png" style="border-radius: 5px;" width="40px">
 #### 🟡 等待修复/部分失效
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xxyx.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zippo.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Linovel.png" style="border-radius: 5px;" width="40px">
-&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dmzj.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ccbLife.jpg" style="border-radius: 5px;" width="40px">
 #### 🔴 停止维护/已失效
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cwm.png" style="border-radius: 5px;" width="40px">
