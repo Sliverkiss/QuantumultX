@@ -1,6 +1,3 @@
-<div>
-  <a href="https://t.me/sliverkiss"><img alt="" src="" width="380px"/></a> 
-</div>
 <h2>🌸Sakura Scripts</h1>
 <h4>Collection of Scripts written for QuantumultX iOS App </h4>
 <a href="https://github.com/Sliverkiss/QuantumultX/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sliverkiss/QuantumultX?color=yellow&logo=riseup&logoColor=yellow&style=flat-square"></a>
