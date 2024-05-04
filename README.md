@@ -34,6 +34,24 @@
 
   * icon图标集: [sliverkiss.icon.json](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.icons.json)
 
+### 脚本列表(兼容NE/Node环境)
+
+#### 🟢正常可用&nbsp;&nbsp;🟡等待修复&nbsp;&nbsp;🔴停止维护
+
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png" style="border-radius: 5px;" width="5%">🟢
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hsay.png" style="border-radius: 5px;" width="5%">🟢
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/tpt.png" style="border-radius: 5px;" width="5%">🟢
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yht.png" style="border-radius: 5px;" width="5%">🟢
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dlm.png" style="border-radius: 5px;" width="5%">🟢
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/czy13724/LeviIcons/main/leviicons/iqooc.png" style="border-radius: 5px;" width="5%">🟢
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/bgps.png" style="border-radius: 5px;" width="5%">🟢
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zippo.png" style="border-radius: 5px;" width="5%">🟡
+
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xmApp.png" style="border-radius: 5px;" width="5%">🟢
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ydyp.png" style="border-radius: 5px;" width="5%">🟢
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/jsb.png" style="border-radius: 5px;" width="5%">🟢
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/netflixgc.png" style="border-radius: 5px;" width="5%">🟢
+
  ## 免责声明
 * 项目内所涉及脚本、LOGO 仅为资源共享、学习参考之目的，不保证其合法性、正当性、准确性；切勿使用项目做任何商业用途或牟利；
 
