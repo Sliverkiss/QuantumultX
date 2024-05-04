@@ -46,9 +46,9 @@
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/czy13724/LeviIcons/main/leviicons/iqooc.png" style="border-radius: 5px;" width="5%">🟢
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/bgps.png" style="border-radius: 5px;" width="5%">🟢
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zippo.png" style="border-radius: 5px;" width="5%">🟡
-
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xmApp.png" style="border-radius: 5px;" width="5%">🟢
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ydyp.png" style="border-radius: 5px;" width="5%">🟢
+
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/jsb.png" style="border-radius: 5px;" width="5%">🟢
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/netflixgc.png" style="border-radius: 5px;" width="5%">🟢
 
