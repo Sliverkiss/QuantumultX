@@ -18,6 +18,7 @@
 ### 脚本列表(兼容NE/Node环境)
 
 #### 🟢 正常可用
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/pgsh.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hsay.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/tpt.png" style="border-radius: 5px;" width="40px">
@@ -62,7 +63,6 @@
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ccbLife.jpg" style="border-radius: 5px;" width="40px">
 #### 🔴 停止维护/已失效
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cwm.png" style="border-radius: 5px;" width="40px">
-&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/pgsh.png" style="border-radius: 5px;" width="40px">
 
  ## 免责声明
 * 项目内所涉及脚本、LOGO 仅为资源共享、学习参考之目的，不保证其合法性、正当性、准确性；切勿使用项目做任何商业用途或牟利；
