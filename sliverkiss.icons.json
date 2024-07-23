@@ -3,476 +3,92 @@
   "description": "收集一些自己脚本用到的图标",
   "icons": [
     {
-      "name": "redbull.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/redbull.png"
-    },
-    {
-      "name": "aliyunWeb.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/aliyunWeb.png"
-    },
-    {
-      "name": "Wzyd.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wzyd.png"
-    },
-    {
-      "name": "netflixgc.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/netflixgc.png"
-    },
-    {
-      "name": "Dxqd.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dxqd.png"
-    },
-    {
-      "name": "bgps.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/bgps.png"
-    },
-    {
-      "name": "Zsfc.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zsfc.png"
-    },
-    {
-      "name": "Firework.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Firework.png"
-    },
-    {
-      "name": "zippo.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zippo.png"
-    },
-    {
-      "name": "Tyyp.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tyyp.png"
-    },
-    {
-      "name": "yuchenios.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png"
-    },
-    {
-      "name": "hdl.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/hdl.png"
-    },
-    {
-      "name": "manmanbuy.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/manmanbuy.png"
-    },
-    {
-      "name": "Iios.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iios.png"
-    },
-    {
-      "name": "Ysf.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Ysf.png"
-    },
-    {
-      "name": "Stlxz.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Stlxz.png"
-    },
-    {
-      "name": "rbxj.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/rbxj.png"
-    },
-    {
-      "name": "fqchwl.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/fqchwl.png"
-    },
-    {
-      "name": "pskj.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/pskj.png"
-    },
-    {
-      "name": "zswy.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zswy.png"
-    },
-    {
-      "name": "tpt.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/tpt.png"
-    },
-    {
-      "name": "Adjd.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Adjd.png"
-    },
-    {
-      "name": "yhlm.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yhlm.png"
-    },
-    {
-      "name": "sdl.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sdl.png"
-    },
-    {
-      "name": "harbor.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/harbor.png"
-    },
-    {
-      "name": "Czfa.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Czfa.png"
-    },
-    {
-      "name": "gjjj.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/gjjj.png"
-    },
-    {
-      "name": "qdxw.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/qdxw.png"
-    },
-    {
-      "name": "ffqc.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ffqc.png"
-    },
-    {
-      "name": "wgttd.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/wgttd.png"
-    },
-    {
-      "name": "picc.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/picc.png"
-    },
-    {
-      "name": "mxbc.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/mxbc.png"
-    },
-    {
-      "name": "aeon.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/aeon.png"
-    },
-    {
-      "name": "flower.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/flower.png"
-    },
-    {
-      "name": "zhengjia.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zhengjia.png"
-    },
-    {
-      "name": "Xdm.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Xdm.png"
-    },
-    {
-      "name": "Ddnsto.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Ddnsto.png"
-    },
-    {
-      "name": "gril.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/gril.png"
-    },
-    {
-      "name": "ftej.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ftej.png"
-    },
-    {
-      "name": "fengxin.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/fengxin.png"
-    },
-    {
-      "name": "Hax.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hax.png"
-    },
-    {
-      "name": "gdong.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/gdong.png"
-    },
-    {
-      "name": "sakura.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sakura.png"
-    },
-    {
-      "name": "ppmt.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ppmt.png"
-    },
-    {
-      "name": "naixue.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/naixue.png"
-    },
-    {
-      "name": "Mtmc.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Mtmc.png"
+      "name": "aoliao.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/aoliao.png"
     },
     {
       "name": "qinglong.png",
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/qinglong.png"
     },
     {
-      "name": "Zsej.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zsej.png"
+      "name": "gjjj.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/gjjj.png"
     },
     {
-      "name": "Michelin.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Michelin.png"
+      "name": "aliyunWeb.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/aliyunWeb.png"
     },
     {
-      "name": "xstl.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xstl.png"
+      "name": "wyyyy.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/wyyyy.png"
     },
     {
-      "name": "aoliao.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/aoliao.png"
-    },
-    {
-      "name": "hgds.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/hgds.png"
-    },
-    {
-      "name": "Iqiyi.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iqiyi.png"
-    },
-    {
-      "name": "nodeseek.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/nodeseek.png"
-    },
-    {
-      "name": "Linovel.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Linovel.png"
-    },
-    {
-      "name": "Dlm.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dlm.png"
-    },
-    {
-      "name": "bilibiliCrack.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/bilibiliCrack.png"
-    },
-    {
-      "name": "yongpai.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yongpai.png"
-    },
-    {
-      "name": "htmwg.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/htmwg.png"
-    },
-    {
-      "name": "Glados.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Glados.png"
-    },
-    {
-      "name": "yht.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yht.png"
-    },
-    {
-      "name": "crh.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/crh.png"
-    },
-    {
-      "name": "Jtc.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Jtc.png"
-    },
-    {
-      "name": "github.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/github.png"
-    },
-    {
-      "name": "sunline.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sunline.png"
-    },
-    {
-      "name": "volvo.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/volvo.png"
-    },
-    {
-      "name": "Wbzj.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wbzj.png"
-    },
-    {
-      "name": "Blyy.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Blyy.png"
-    },
-    {
-      "name": "xxyx.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xxyx.png"
-    },
-    {
-      "name": "wph.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/wph.png"
-    },
-    {
-      "name": "Zxcs.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zxcs.png"
-    },
-    {
-      "name": "Bnmdhg.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Bnmdhg.png"
-    },
-    {
-      "name": "Cwm.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cwm.png"
-    },
-    {
-      "name": "wyy_crack.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/wyy_crack.png"
-    },
-    {
-      "name": "xcbwc.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xcbwc.png"
-    },
-    {
-      "name": "ahdx.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ahdx.png"
-    },
-    {
-      "name": "Smzdm.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Smzdm.png"
-    },
-    {
-      "name": "heytea.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/heytea.png"
-    },
-    {
-      "name": "zte.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zte.png"
-    },
-    {
-      "name": "Bwcj.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Bwcj.png"
-    },
-    {
-      "name": "Zmhy.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zmhy.png"
-    },
-    {
-      "name": "Quark.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png"
-    },
-    {
-      "name": "talkatone.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/talkatone.png"
-    },
-    {
-      "name": "sqdz.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sqdz.png"
-    },
-    {
-      "name": "zxjl.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zxjl.png"
-    },
-    {
-      "name": "Checkbox.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Checkbox.png"
-    },
-    {
-      "name": "silly.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/silly.png"
-    },
-    {
-      "name": "nissan.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/nissan.png"
-    },
-    {
-      "name": "ydyp.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ydyp.png"
-    },
-    {
-      "name": "zeekr.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zeekr.png"
-    },
-    {
-      "name": "Pic.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Pic.png"
-    },
-    {
-      "name": "Hsay.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hsay.png"
-    },
-    {
-      "name": "Hxek.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxek.png"
+      "name": "txty.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/txty.png"
     },
     {
       "name": "pp_parking.png",
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/pp_parking.png"
     },
     {
-      "name": "duona.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/duona.png"
+      "name": "yhlm.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yhlm.png"
     },
     {
-      "name": "cfb.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/cfb.png"
+      "name": "Hxek.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hxek.png"
     },
     {
-      "name": "zbs.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zbs.png"
+      "name": "zippo.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zippo.png"
     },
     {
-      "name": "Nestle.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Nestle.png"
+      "name": "luobook.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/luobook.png"
     },
     {
-      "name": "xmApp.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xmApp.png"
+      "name": "Gddt.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Gddt.png"
     },
     {
-      "name": "Chery.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Chery.png"
+      "name": "fqchwl.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/fqchwl.png"
     },
     {
-      "name": "gqft.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/gqft.png"
+      "name": "picc.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/picc.png"
     },
     {
-      "name": "Cqxhsd.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cqxhsd.png"
+      "name": "Dxqd.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dxqd.png"
     },
     {
-      "name": "jryc.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/jryc.png"
+      "name": "ffqc.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ffqc.png"
     },
     {
-      "name": "txsp.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/txsp.png"
+      "name": "ppmt.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ppmt.png"
     },
     {
-      "name": "mybox.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/mybox.png"
+      "name": "Xdm.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Xdm.png"
     },
     {
-      "name": "aliyun.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/aliyun.png"
+      "name": "zgrb.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zgrb.png"
     },
     {
-      "name": "hqzl.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/hqzl.png"
+      "name": "Linovel.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Linovel.png"
     },
     {
-      "name": "teaMilk.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/teaMilk.png"
+      "name": "Glados.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Glados.png"
     },
     {
-      "name": "Sfsy.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sfsy.png"
-    },
-    {
-      "name": "cst.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/cst.png"
-    },
-    {
-      "name": "Hzh.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hzh.png"
-    },
-    {
-      "name": "Hapi.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hapi.png"
-    },
-    {
-      "name": "10086.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/10086.png"
-    },
-    {
-      "name": "Switch.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Switch.png"
-    },
-    {
-      "name": "Htx.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Htx.png"
-    },
-    {
-      "name": "Midea.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Midea.png"
-    },
-    {
-      "name": "Hldc.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hldc.png"
-    },
-    {
-      "name": "nfsq.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/nfsq.png"
+      "name": "Adjd.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Adjd.png"
     },
     {
       "name": "fxsh.png",
@@ -483,36 +99,368 @@
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png"
     },
     {
+      "name": "Mtmc.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Mtmc.png"
+    },
+    {
+      "name": "talkatone.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/talkatone.png"
+    },
+    {
+      "name": "cst.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/cst.png"
+    },
+    {
+      "name": "flower.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/flower.png"
+    },
+    {
+      "name": "Midea.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Midea.png"
+    },
+    {
+      "name": "jryc.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/jryc.png"
+    },
+    {
+      "name": "hgds.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/hgds.png"
+    },
+    {
+      "name": "v2ex.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/v2ex.png"
+    },
+    {
+      "name": "zswy.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zswy.png"
+    },
+    {
+      "name": "duona.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/duona.png"
+    },
+    {
+      "name": "Dmzj.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dmzj.png"
+    },
+    {
+      "name": "Ysf.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Ysf.png"
+    },
+    {
+      "name": "Hax.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hax.png"
+    },
+    {
+      "name": "Prw.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Prw.png"
+    },
+    {
+      "name": "Zmhy.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zmhy.png"
+    },
+    {
+      "name": "Bwcj.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Bwcj.png"
+    },
+    {
+      "name": "heytea.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/heytea.png"
+    },
+    {
+      "name": "Hzh.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hzh.png"
+    },
+    {
+      "name": "cfb.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/cfb.png"
+    },
+    {
+      "name": "redbull.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/redbull.png"
+    },
+    {
+      "name": "Cheryl’s.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cheryl’s.png"
+    },
+    {
+      "name": "ydyp.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ydyp.png"
+    },
+    {
+      "name": "Switch.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Switch.png"
+    },
+    {
+      "name": "Ddnsto.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Ddnsto.png"
+    },
+    {
+      "name": "yongpai.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yongpai.png"
+    },
+    {
+      "name": "github.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/github.png"
+    },
+    {
+      "name": "txsp.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/txsp.png"
+    },
+    {
+      "name": "yuchenios.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yuchenios.png"
+    },
+    {
+      "name": "wyy_crack.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/wyy_crack.png"
+    },
+    {
+      "name": "Zsfc.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zsfc.png"
+    },
+    {
+      "name": "qdxw.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/qdxw.png"
+    },
+    {
+      "name": "Czfa.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Czfa.png"
+    },
+    {
+      "name": "Cwm.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cwm.png"
+    },
+    {
+      "name": "wgttd.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/wgttd.png"
+    },
+    {
+      "name": "cbd.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/cbd.png"
+    },
+    {
+      "name": "sqdz.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sqdz.png"
+    },
+    {
+      "name": "Bnmdhg.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Bnmdhg.png"
+    },
+    {
+      "name": "zeekr.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zeekr.png"
+    },
+    {
+      "name": "rbxj.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/rbxj.png"
+    },
+    {
+      "name": "Smzdm.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Smzdm.png"
+    },
+    {
+      "name": "sony.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sony.png"
+    },
+    {
+      "name": "xmApp.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xmApp.png"
+    },
+    {
+      "name": "Tyyp.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tyyp.png"
+    },
+    {
+      "name": "silly.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/silly.png"
+    },
+    {
+      "name": "Htx.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Htx.png"
+    },
+    {
+      "name": "Michelin.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Michelin.png"
+    },
+    {
+      "name": "gdong.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/gdong.png"
+    },
+    {
+      "name": "Iqiyi.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iqiyi.png"
+    },
+    {
+      "name": "mybox.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/mybox.png"
+    },
+    {
+      "name": "Quark.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Quark.png"
+    },
+    {
+      "name": "yht.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yht.png"
+    },
+    {
+      "name": "crh.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/crh.png"
+    },
+    {
+      "name": "Wbzj.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wbzj.png"
+    },
+    {
+      "name": "Firework.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Firework.png"
+    },
+    {
+      "name": "zte.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zte.png"
+    },
+    {
+      "name": "gril.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/gril.png"
+    },
+    {
       "name": "geely.png",
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/geely.png"
     },
     {
-      "name": "txty.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/txty.png"
+      "name": "manmanbuy.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/manmanbuy.png"
     },
     {
-      "name": "zgrb.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zgrb.png"
+      "name": "Zxcs.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zxcs.png"
     },
     {
-      "name": "tenvideo.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/tenvideo.png"
+      "name": "teaMilk.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/teaMilk.png"
     },
     {
-      "name": "qtx.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/qtx.png"
+      "name": "naixue.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/naixue.png"
+    },
+    {
+      "name": "nfsq.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/nfsq.png"
+    },
+    {
+      "name": "Nestle.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Nestle.png"
+    },
+    {
+      "name": "Zsej.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zsej.png"
+    },
+    {
+      "name": "aliyun.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/aliyun.png"
+    },
+    {
+      "name": "sakura.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sakura.png"
+    },
+    {
+      "name": "missevan.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/missevan.png"
+    },
+    {
+      "name": "nodeseek.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/nodeseek.png"
+    },
+    {
+      "name": "ahdx.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ahdx.png"
+    },
+    {
+      "name": "Wzyd.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wzyd.png"
+    },
+    {
+      "name": "mxbc.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/mxbc.png"
+    },
+    {
+      "name": "hdl.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/hdl.png"
+    },
+    {
+      "name": "volvo.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/volvo.png"
+    },
+    {
+      "name": "Cqxhsd.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cqxhsd.png"
+    },
+    {
+      "name": "xstl.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xstl.png"
+    },
+    {
+      "name": "Hdl.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hdl.png"
+    },
+    {
+      "name": "flower2.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/flower2.png"
+    },
+    {
+      "name": "Sfsy.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Sfsy.png"
+    },
+    {
+      "name": "zbs.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zbs.png"
+    },
+    {
+      "name": "sdl.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sdl.png"
+    },
+    {
+      "name": "Hsay.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hsay.png"
+    },
+    {
+      "name": "nissan.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/nissan.png"
+    },
+    {
+      "name": "Ffit.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Ffit.png"
+    },
+    {
+      "name": "yhss.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yhss.png"
     },
     {
       "name": "Kbj.png",
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Kbj.png"
     },
     {
-      "name": "jlqc.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/jlqc.png"
+      "name": "harbor.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/harbor.png"
     },
     {
-      "name": "Elm.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Elm.png"
+      "name": "Stlxz.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Stlxz.png"
+    },
+    {
+      "name": "Hapi.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hapi.png"
+    },
+    {
+      "name": "xxyx.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xxyx.png"
+    },
+    {
+      "name": "Jtc.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Jtc.png"
+    },
+    {
+      "name": "xcbwc.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xcbwc.png"
     },
     {
       "name": "pgsh.png",
@@ -523,92 +471,148 @@
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/qdsnmc.png"
     },
     {
-      "name": "wyyyy.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/wyyyy.png"
-    },
-    {
-      "name": "missevan.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/missevan.png"
-    },
-    {
-      "name": "xwy.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xwy.png"
-    },
-    {
-      "name": "flower2.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/flower2.png"
-    },
-    {
-      "name": "Cheryl’s.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cheryl’s.png"
+      "name": "lenovo.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/lenovo.png"
     },
     {
       "name": "Tmkk.png",
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tmkk.png"
     },
     {
+      "name": "jlqc.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/jlqc.png"
+    },
+    {
+      "name": "netflixgc.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/netflixgc.png"
+    },
+    {
+      "name": "tpt.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/tpt.png"
+    },
+    {
+      "name": "Checkbox.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Checkbox.png"
+    },
+    {
       "name": "Xbox.png",
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Xbox.png"
     },
     {
-      "name": "luobook.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/luobook.png"
+      "name": "hqzl.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/hqzl.png"
     },
     {
-      "name": "v2ex.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/v2ex.png"
+      "name": "qtx.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/qtx.png"
     },
     {
-      "name": "cbd.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/cbd.png"
+      "name": "zhengjia.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zhengjia.png"
+    },
+    {
+      "name": "xjb.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xjb.png"
     },
     {
       "name": "yrh.png",
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yrh.png"
     },
     {
-      "name": "Hdl.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hdl.png"
+      "name": "Hldc.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hldc.png"
     },
     {
-      "name": "sony.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sony.png"
+      "name": "aeon.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/aeon.png"
     },
     {
-      "name": "Ffit.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Ffit.png"
+      "name": "sunline.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sunline.png"
     },
     {
-      "name": "hzh_2.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/hzh_2.png"
+      "name": "xwy.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xwy.png"
     },
     {
       "name": "Hualahuala.png",
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hualahuala.png"
     },
     {
-      "name": "Prw.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Prw.png"
+      "name": "Iios.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Iios.png"
     },
     {
-      "name": "Gddt.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Gddt.png"
-    },
-    {
-      "name": "yhss.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/yhss.png"
-    },
-    {
-      "name": "lenovo.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/lenovo.png"
+      "name": "ftej.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ftej.png"
     },
     {
       "name": "jsb.png",
       "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/jsb.png"
     },
     {
-      "name": "Dmzj.png",
-      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dmzj.png"
+      "name": "htmwg.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/htmwg.png"
+    },
+    {
+      "name": "fengxin.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/fengxin.png"
+    },
+    {
+      "name": "bgps.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/bgps.png"
+    },
+    {
+      "name": "Chery.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Chery.png"
+    },
+    {
+      "name": "10086.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/10086.png"
+    },
+    {
+      "name": "wph.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/wph.png"
+    },
+    {
+      "name": "pskj.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/pskj.png"
+    },
+    {
+      "name": "hzh_2.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/hzh_2.png"
+    },
+    {
+      "name": "bilibiliCrack.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/bilibiliCrack.png"
+    },
+    {
+      "name": "Pic.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Pic.png"
+    },
+    {
+      "name": "Blyy.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Blyy.png"
+    },
+    {
+      "name": "zxjl.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zxjl.png"
+    },
+    {
+      "name": "Dlm.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dlm.png"
+    },
+    {
+      "name": "tenvideo.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/tenvideo.png"
+    },
+    {
+      "name": "Elm.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Elm.png"
+    },
+    {
+      "name": "gqft.png",
+      "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/gqft.png"
     }
   ]
 }
