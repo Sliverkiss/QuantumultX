@@ -3,7 +3,7 @@
 <a href="https://github.com/Sliverkiss/QuantumultX/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sliverkiss/QuantumultX?color=yellow&logo=riseup&logoColor=yellow&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Sliverkiss/QuantumultX?color=orange&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Sliverkiss/QuantumultX?color=red&style=flat-square"></a>
-<a href="https://t.me/sliverkiss"><img alt="Telegram" src="https://img.shields.io/badge/chat-telegram-blue.svg?logo=telegram&style=flat-square"/></a> 
+<a href="https://t.me/sliverkiss_blog"><img alt="Telegram" src="https://img.shields.io/badge/chat-telegram-blue.svg?logo=telegram&style=flat-square"/></a> 
 
 ![Visitor Count](https://profile-counter.glitch.me/Sliverkiss/count.svg) 
 
