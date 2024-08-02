@@ -26,7 +26,6 @@
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Dlm.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/czy13724/LeviIcons/main/leviicons/iqooc.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/bgps.png" style="border-radius: 5px;" width="40px">
-&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xmApp.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/ydyp.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/jsb.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/netflixgc.png" style="border-radius: 5px;" width="40px">
@@ -61,8 +60,10 @@
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zippo.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Linovel.png" style="border-radius: 5px;" width="40px">
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ccbLife.jpg" style="border-radius: 5px;" width="40px">
+&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xmApp.png" style="border-radius: 5px;" width="40px">
 #### 🔴 停止维护/已失效
 &nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cwm.png" style="border-radius: 5px;" width="40px">
+
 
  ## 免责声明
 * 项目内所涉及脚本、LOGO 仅为资源共享、学习参考之目的，不保证其合法性、正当性、准确性；切勿使用项目做任何商业用途或牟利；
