@@ -1,5 +1,5 @@
-<h2>🌸Sakura Scripts</h1>
-<h4>Collection of Scripts written for QuantumultX iOS App </h4>
+<h1>🌸Sakura Scripts</h1>
+<h3>Collection of Scripts written for QuantumultX iOS App </h4>
 <a href="https://github.com/Sliverkiss/QuantumultX/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sliverkiss/QuantumultX?color=yellow&logo=riseup&logoColor=yellow&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Sliverkiss/QuantumultX?color=orange&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Sliverkiss/QuantumultX?color=red&style=flat-square"></a>
