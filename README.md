@@ -86,15 +86,22 @@
 
 * 本项目保留随时对免责声明进行补充或更改的权利，直接或间接使用本项目内容的个人或组织，视为接受本项目的特别声明。
 
-
 ## Star🌟
+<table align="center">
+<div align="center">
+    <tr>
+        <td width="50%"  align="center">
+      <img src="https://api.star-history.com/svg?repos=sliverkiss/QuantumultX&type=Date" alt="Star History Chart" width="600" height="356" align="center">
+        </td>
+        <td valign="top" width="50%">
 
-<img src="https://api.star-history.com/svg?repos=sliverkiss/QuantumultX&type=Date" alt="Star History Chart" width="600" height="356" align="center">
-
-## 💰 赞赏码
-⬇️ 如果这个项目对你有所帮助的话，可以投喂作者喵～感谢投喂喵～你的支持，就是我更新的动力。
-
-<img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/IMG_3486.jpeg" alt="Eallet" width="200" height="200" align="center">
+#### 🐱 赞赏码
+> ⬇️ 如果这个项目对你有所帮助的话，可以投喂作者喵～感谢投喂喵～你的支持，就是我更新的动力。
+<div align="center"><img src="https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/IMG_3486.jpeg" alt="Eallet" width="200" height="200" align="center"></div>
+</td>
+    </tr>
+    </div>
+</table
 
 ## 特别感谢
 *  [@chavyleung](https://github.com/chavyleung) 
