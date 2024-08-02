@@ -101,7 +101,7 @@
 </td>
     </tr>
     </div>
-</table
+</table>
 
 ## 特别感谢
 *  [@chavyleung](https://github.com/chavyleung) 
