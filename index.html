@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sakura.io</title>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <link rel="Bookmark" href="https://fastly.jsdelivr.net/gh/Sliverkiss/QuantumultX@main/icon/flower.png" />
+    <link rel="shortcut icon" href="https://fastly.jsdelivr.net/gh/Sliverkiss/QuantumultX@main/icon/flower.png" />
+    <link rel="apple-touch-icon" href="https://fastly.jsdelivr.net/gh/Sliverkiss/QuantumultX@main/icon/flower.png" />
+    <!-- boostrap5 -->
+    <link href="https://fastly.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://fastly.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/mhDoLbDldZc3qpsJHpLogda//BVZbgYuw6kof4u2FrCedxOtgRZDTHgHUhOCVim" crossorigin="anonymous">
+    </script>
+    <style>
+        body {
+            background: rgb(32 32 41);
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        span {
+            color: rgb(96 165 250);
+        }
+
+        .appx {
+            background: rgb(32 32 41);
+        }
+
+        .box {
+            background-color: rgb(40 42 53);
+            border-radius: 7px;
+        }
+
+        .box div,
+        h3 {
+            background-color: rgb(40 42 53);
+            border-radius: 7px;
+        }
+
+        .github_icon {
+            height: 50px;
+        }
+
+        .box button {
+            z-index: 1;
+            position: relative;
+            font-size: inherit;
+            font-family: inherit;
+            color: white;
+            padding: 0.5em 1em;
+            outline: none;
+            border: none;
+            border-radius: 7px;
+            background-color: hsl(236, 32%, 26%);
+        }
+
+        .box button::before {
+            content: '';
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 7px;
+            background-color: rgb(96 165 250);
+            transform-origin: center right;
+            transform: scaleX(0);
+            transition: transform 0.25s ease-in-out;
+        }
+
+        .box button:hover {
+            cursor: pointer;
+        }
+
+        .box button:hover::before {
+            transform-origin: center left;
+            transform: scaleX(1);
+        }
+
+        .col div {
+            display: inline;
+        }
+
+        .detail {
+            margin: 0 auto;
+            display: block;
+            border-radius: 10px;
+        }
+
+        .input {
+            font-family: monospace;
+            max-width: 190px;
+            outline: none;
+            border: 1px solid #dadada;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: #f3f7fe;
+            transition: .3s;
+            color: rgb(96 165 250);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app" v-cloak="">
+        <div class="appx">
+            <div class="container text-white p-4">
+                <!-- header -->
+                <div class="mb-3 mt-5 header">
+                    <h1>{{ui.name}}</h1>
+                    <a>Collection of Scripts written for QuantumultX iOS App
+                        <span class="">&copy; Sliverkiss</span></a>
+                    <div class="row">
+                        <div class="col">
+                            <div class="me-2">
+                                <a href="https://github.com/sliverkiss">
+                                    <img class="github_icon" src="https://obf-io.deobfuscate.io/github-logo.png" alt="GitHub Logo" draggable="false">
+                                </a>
+                            </div>
+                            <div>
+                                <input v-model="ui.search" @input="search()" placeholder="Type here..." class="input" name="text" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- body -->
+                <div class="p-3 mb-4 box body">
+                    <div>
+                        <h3 class="text-center">Script</h3>
+                        <nav aria-label="breadcrumb" class="text-white">
+                        </nav>
+                        <div v-show="ui.showStatus">
+                            <button class="m-1" v-for="item of ui.module" @click="copyText(item)">{{item.tagName}}</button>
+                        </div>
+                        <div class="detail" v-show="!ui.showStatus">
+                            <iframe ref="iframe" class="detail text-center" height="225px"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://fastly.jsdelivr.net/npm/vue@2.x/dist/vue.min.js"></script>
+    <script src="https://fastly.jsdelivr.net/npm/axios@0.x/dist/axios.min.js"></script>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data() {
+                return {
+                    ui:{
+                        name:"Sakura.io",
+                        title:"Apps",
+                        search:"",
+                        showStatus:true,
+                        arr:[],
+                        module:[],
+                        cache:[]
+                    },
+                }
+            },
+            computed: {
+
+            },
+            watch: {
+            },
+            beforeCreate() {
+                // 请求&响应拦截器, 显示&隐藏加载条
+                axios.interceptors.request.use((cfg) => {
+                    this.isLoading = true
+                    return cfg
+                })
+                axios.interceptors.response.use(
+                    (resp) => {
+                        this.isLoading = false
+                        return resp
+                    },
+                    (error) => (this.isLoading = false)
+                )
+            },
+            created() {
+            },
+            mounted() {
+                //加载app
+                this.loadApp();
+            },
+            methods: {
+                loadApp(){
+                    //数据脱敏
+                    axios.get("https://gist.githubusercontent.com/Sliverkiss/a7496bd073820942b44a9b36874aaf4c/raw/sliverkiss.gallery.json").then((resp)=>{
+                        this.ui.module=extractData(resp.data.task);
+                        this.ui.cache=extractData(resp.data.task);
+                    })
+                    function extractData(arr) {
+    const jsRegex = /https:\/\/[^\s,]+\.js/;
+    const tagRegex = /tag=([^,]+)/;
+    const imgUrlRegex = /img-url=([^,]+)/;
+
+    return arr.flatMap(({ config }) => {
+        const jsLink = jsRegex.exec(config)?.[0];
+        const tagName = tagRegex.exec(config)?.[1];
+        const imgUrl = imgUrlRegex.exec(config)?.[1];
+
+        return jsLink || tagName || imgUrl ? [{ jsLink, tagName, imgUrl }] : [];
+    });
+            }
+                },
+                search(){
+                    if(this.ui.search==''){
+                        this.ui.module=this.ui.cache;
+                    }else{
+                        let arr=this.ui.module;
+                        let arr2=[];
+                        let search=this.ui.search.toLowerCase()
+                        arr.map(e=>{
+                            let name=e.tagName.toLowerCase();
+                            if(name.indexOf(search)!=-1){
+                                arr2.push(e)
+                            }
+                        })
+                        this.ui.module=arr2;
+                    }
+                },
+                copyText(item) {
+                    // 创建一个临时文本输入框
+                    const tempInput = document.createElement('input');
+                    tempInput.value = item?.jsLink;
+                    document.body.appendChild(tempInput);
+                    tempInput.select();
+                    try {
+                        const successful = document.execCommand('copy');
+                        alert(successful ? '文本已复制到粘贴板!' : '复制失败。');
+                    } catch (err) {
+                        alert('浏览器不支持复制命令。');
+                    }
+                    // 移除临时文本输入框
+                    document.body.removeChild(tempInput);
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
