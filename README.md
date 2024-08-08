@@ -13,7 +13,7 @@
 
 ### 安装链接
 
-[任务仓库订阅](https://gist.githubusercontent.com/Sliverkiss/a7496bd073820942b44a9b36874aaf4c/raw/sliverkiss.gallery.json)｜[boxjs订阅](https://gist.githubusercontent.com/Sliverkiss/18bd01be356360a8065a21ea71685ad3/raw/sliverkiss.boxjs.json)｜[icon图标集](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.icons.json)
+[脚本自助查询](http://sliverkiss.free.hr/QuantumultX/)｜[任务仓库订阅](https://gist.githubusercontent.com/Sliverkiss/a7496bd073820942b44a9b36874aaf4c/raw/sliverkiss.gallery.json)｜[boxjs订阅](https://gist.githubusercontent.com/Sliverkiss/18bd01be356360a8065a21ea71685ad3/raw/sliverkiss.boxjs.json)｜[icon图标集](https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.icons.json)
 
 ### 脚本列表(兼容NE/Node环境)
 
