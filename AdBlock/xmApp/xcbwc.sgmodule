@@ -3,7 +3,7 @@
 
 [Header Rewrite]
 # 红包推广
-^https:\/\/gw\.xiaocantech\.com\/rpc header-replace-regx methodname SlikwormService\.GetBannerList null
+http-request ^https:\/\/gw\.xiaocantech\.com\/rpc header-replace-regex methodname SilkwormService.GetBannerList 1
 
 [Map Local]
 # 小蚕霸王餐 首页横幅推广
