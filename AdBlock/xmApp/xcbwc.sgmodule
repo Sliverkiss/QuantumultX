@@ -3,7 +3,7 @@
 
 [Map Local]
 # 小蚕霸王餐 红包推广
-小蚕去广告 = type=http-response, pattern=^https:\/\/gw\.xiaocantech\.com\/rpc, script-path=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/AdBlock/xmApp/xcbwc.sgmodule, requires-body=true, max-size=-1, timeout=60
+小蚕去广告 = type=http-response, pattern=^https:\/\/gw\.xiaocantech\.com\/rpc, script-path=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/AdBlock/xmApp/xiaocan.js, requires-body=true, max-size=-1, timeout=60
 
 # 小蚕霸王餐 首页横幅推广
 ^https:\/\/web2\.realtech-inc\.com\/oss\/xc-app-assets\/configs\/common\/theme\.json data-type=text data="{}" status-code=200
