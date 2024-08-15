@@ -1,5 +1,5 @@
 #!name=小蚕霸王餐去广告
-#!desc=local
+#!desc=移除主页大部分广告 by @派大星
 
 [Header Rewrite]
 # 红包推广
