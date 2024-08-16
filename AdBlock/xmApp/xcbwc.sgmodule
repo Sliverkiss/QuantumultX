@@ -3,7 +3,7 @@
 
 [Header Rewrite]
 # 红包推广
-http-request ^https:\/\/gw\.xiaocantech\.com\/rpc header-replace-regex methodname .*(GetBannerList|IsNewUserAndShowPopup|ListWelFarePromotionByDist|UserLifeShopList|UserCityPromotion|GetPromotionOrderList|BrandBannerList|GetPromotionGlobalCfg) 1
+http-request ^https:\/\/gw\.xiaocantech\.com\/rpc header-replace-regex methodname .*(GetBannerList|IsNewUserAndShowPopup|ListWelFarePromotionByDist|UserLifeShopList|UserCityPromotion|BrandBannerList|GetPromotionGlobalCfg) 1
 
 [Map Local]
 # 小蚕霸王餐 首页横幅推广
