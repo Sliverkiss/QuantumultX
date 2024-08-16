@@ -3,11 +3,18 @@
 
 [Header Rewrite]
 # 红包推广
-http-request ^https:\/\/gw\.xiaocantech\.com\/rpc header-replace-regex methodname .*(GetBannerList|UserLifeShopList|BrandBannerList|GetPromotionGlobalCfg) 1
+http-request ^https:\/\/gw\.xiaocantech\.com\/rpc header-replace-regex methodname .*(GetBannerList|IsNewUserAndShowPopup|ListWelFarePromotionByDist|UserLifeShopList|UserCityPromotion|GetPromotionOrderList|BrandBannerList|GetPromotionGlobalCfg) 1
 
 [Map Local]
 # 小蚕霸王餐 首页横幅推广
 ^https:\/\/web2\.realtech-inc\.com\/oss\/xc-app-assets\/configs\/common\/theme\.json data-type=text data="{}" status-code=200
+
+#打车权益
+^https:\/\/web\.xinyifm\.cn\/oss\/xc-app-assets\/configs\/common\/index_activity\.json data-type=text data="{}" status-code=200
+
+#大牌活动
+^https:\/\/web2\.realtech-inc\.com\/oss\/xc-app-assets\/configs\/common\/links\.json data-type=text data="{}" status-code=200
+
 
 # 小蚕霸王餐 开屏广告
 ^https:\/\/sdk\.1rtb\.net\/sdk\/req_ad\? data-type=text data="{}" status-code=200
