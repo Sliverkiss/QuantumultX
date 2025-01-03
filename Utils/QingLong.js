@@ -282,7 +282,7 @@ function QingLong(HOST, Client_ID, Client_Secret) {
          */
         async enableEnv(ids) {
             const options = {
-                url: `${this.host}open/envs/enable`,
+                url: `${this.host}/open/envs/enable`,
                 method: "put",
                 headers: {
                     Authorization: `${this.token}`,
@@ -312,7 +312,7 @@ function QingLong(HOST, Client_ID, Client_Secret) {
          */
         async disableEnv(ids) {
             const options = {
-                url: `${this.host}open/envs/disable`,
+                url: `${this.host}/open/envs/disable`,
                 method: "put",
                 headers: {
                     Authorization: `${this.token}`,
@@ -342,7 +342,7 @@ function QingLong(HOST, Client_ID, Client_Secret) {
          */
         async getEnvById(id) {
             const options = {
-                url: `${this.host}open/envs/${id}`,
+                url: `${this.host}/open/envs/${id}`,
                 headers: {
                     Authorization: `${this.token}`,
                 },
