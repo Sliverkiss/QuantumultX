@@ -1,13 +1,10 @@
 <h1>🌸Sakura Scripts</h1>
-
-[<img src="https://api.gitsponsors.com/api/badge/img?id=701287409" height="20">](https://api.gitsponsors.com/api/badge/link?p=KNpE97wDO7Yf7sd9W2rde/4XF9lODuyb77X45breBhV09w6G3dmIpOyd7ZXggVvP)
-
-
 <h3>Collection of Scripts written for QuantumultX iOS App </h4>
 <a href="https://github.com/Sliverkiss/QuantumultX/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sliverkiss/QuantumultX?color=yellow&logo=riseup&logoColor=yellow&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Sliverkiss/QuantumultX?color=orange&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Sliverkiss/QuantumultX?color=red&style=flat-square"></a>
 <a href="https://t.me/sliverkiss_blog"><img alt="Telegram" src="https://img.shields.io/badge/chat-telegram-blue.svg?logo=telegram&style=flat-square"/></a> 
+<a href="https://api.gitsponsors.com/api/badge/link?p=KNpE97wDO7Yf7sd9W2rde+FDV5d64ZxFNiu4acyEGO62xROODkWlEc9RMpHPkfkb0mLi9srnwYJf/DthoHLe1DCeJrs3rGu+jmk8YM7V/tbxYTTK5DCwknH+0K7IAOOxNJZotHM7Bn857Xxw7lk/qw=="><img alt="Gitresp" src="https://api.gitsponsors.com/api/badge/img?id=701287409"/></a> 
 
 ![Visitor Count](https://profile-counter.glitch.me/Sliverkiss/count.svg) 
 
