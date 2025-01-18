@@ -1,4 +1,8 @@
 <h1>🌸Sakura Scripts</h1>
+
+[<img src="https://api.gitsponsors.com/api/badge/img?id=701287409" height="20">](https://api.gitsponsors.com/api/badge/link?p=KNpE97wDO7Yf7sd9W2rde/4XF9lODuyb77X45breBhV09w6G3dmIpOyd7ZXggVvP)
+
+
 <h3>Collection of Scripts written for QuantumultX iOS App </h4>
 <a href="https://github.com/Sliverkiss/QuantumultX/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sliverkiss/QuantumultX?color=yellow&logo=riseup&logoColor=yellow&style=flat-square"></a>
 <a href="https://github.com/Sliverkiss/QuantumultX/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Sliverkiss/QuantumultX?color=orange&style=flat-square"></a>
