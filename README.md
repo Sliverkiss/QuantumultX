@@ -20,15 +20,15 @@
 ### 打赏 | Coffie☕️
 如果觉得本脚本对您有帮助，欢迎支持，您的鼓励是我持续更新的动力！☕☕☕
 
-* BTC: bc1py9euv6x4gjl5xuu08605srujr04r92tk3h3y9xhyuvnmu8uurzjssu2m8t
+* BTC: bc1pvq57n7v3ntsf38wmypfggxtvxun7cjgj5qczsq47yrvgjcldfa7skyrq2t
 
-* ETH: 0x9ad616efb4327223f620609a57537021fe0dc02f
+* ETH: 0x1d418627ad6b043900cbe11fe439759bdf2b5170
 
-* SOL: 79tBndjtvPvCyNpPkAP7ddd5Jmosh7ixoLWbj5epDw6s
+* SOL: AZAKF74rTu7UFVSNRzsKV4HHpTwarax6cG8KAh4fP5rQ
 
-* TON: UQA8Z1N2RFYgWaTH81h_AJVk6UjLpbBObXwhtlUMm4h95OH6
+* TON: UQCEUpbCP5zWB5tlGzR1K7Ly9ZMdgZn3FuUbVydJyDlMvAVw
 
-* TRON: TRowdTVFHj5PTMZ9H9NyYa3yN5pJvMP4Rp
+* TRON: TLCv2hQnHrv5ifQocn7nH5x1F1U1gG6v7u
 
  ## 免责声明
 * 项目内所涉及脚本、LOGO 仅为资源共享、学习参考之目的，不保证其合法性、正当性、准确性；切勿使用项目做任何商业用途或牟利；
