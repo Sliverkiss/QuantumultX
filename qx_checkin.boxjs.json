@@ -1,0 +1,76 @@
+{
+  "id": "sliverkiss_quantumultX_checkin",
+  "name": "Sakura 樱花交流会",
+  "author": "@sliverkiss",
+  "icon": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/duona.png",
+  "repo": "https://github.com/Sliverkiss/QuantumultX",
+  "apps": [
+    {
+      "id": "Sliverkiss_QuantumultX_Checkin",
+      "name": "Quantumult 生成签到脚本",
+      "keys": [
+        "@sliverkiss_qx.confPath",
+        "@sliverkiss_qx.ckName",
+        "@sliverkiss_qx.scriptName",
+        "@sliverkiss_qx.fileName",Ï
+        "@sliverkiss_qx.cron",
+        "@sliverkiss_qx.getCookieUrl"
+      ],
+      "scripts": [
+        {
+          "name": "生成脚本相关文件",
+          "script": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/heads/main/quantumultX_writeConf.js"
+        }
+      ],
+      "settings": [
+        {
+          "id": "@sliverkiss_qx.getCookieUrl",
+          "name": "签到url",
+          "val": "",
+          "type": "text",
+          "desc": "填入签到请求的url"
+        },{
+          "id": "@sliverkiss_qx.cron",
+          "name": "脚本定时",
+          "val": "",
+          "type": "text",
+          "desc": "填入要生成脚本的定时表达式"
+        },{
+          "id": "@sliverkiss_qx.scriptName",
+          "name": "脚本名称",
+          "val": "",
+          "type": "text",
+          "desc": "填入task列表中想要显示的脚本名称"
+        },
+        {
+          "id": "@sliverkiss_qx.ckName",
+          "name": "Cookie变量名称",
+          "val": "",
+          "type": "text",
+          "desc": "填入要读取和写入的cookie变量名称"
+        },
+        {
+          "id": "@sliverkiss_qx.fileName",
+          "name": "脚本文件名称",
+          "val": "",
+          "type": "text",
+          "desc": "填入要读取和写入的脚本文件名称"
+        },
+        {
+          "id": "@sliverkiss_qx.confPath",
+          "name": "配置文件名称",
+          "val": "",
+          "type": "text",
+          "desc": "填入要读取和写入的配置文件名称"
+        }
+      ],
+      "author": "@sliverkiss",
+      "repo": "https://github.com/Sliverkiss/QuantumultX",
+      "script": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/heads/main/quantumultX_writeConf.js",
+      "icons": [
+        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Quantumult_X.png",
+        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Quantumult_X.png"
+      ]
+    },
+  ]
+}
