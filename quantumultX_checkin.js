@@ -35,8 +35,6 @@ const accountIndex = 0;//账号数组下标，第一个账号为0
 // ----------- 固定不动区域 -----------
 const moduleName = "QuantmultX CheckIn";
 const $ = new Env(moduleName);
-// 读取脚本传入参数
-$.arguments = getArguments();
 // 优先级: 脚本内 > 脚本外部传入
 $.name = scriptName || moduleName;
 $.ckName = ckName || "slivekriss777";
@@ -164,26 +162,6 @@ function isMatch(res, regexString) {
 
     // 判断字符串是否匹配正则表达式
     return regex.test(stringToMatch);
-}
-
-//封装一个获取脚本参数的方法
-function getArguments() {
-    if (typeof $environment != 'undefined') {
-        // 获取脚本路径
-        const sourcePath = $environment.sourcePath;
-        if (!sourcePath) return {}
-        const sourceUrl = new URL(sourcePath);
-        const sourceHash = sourceUrl.hash;
-        const scriptParams = new URLSearchParams(sourceHash.substring(1));
-
-        return {
-            ...scriptParams,
-            account: $.getjson($.ckName) || []
-        }
-    } else {
-        return {}
-    }
-
 }
 
 // prettier-ignore
