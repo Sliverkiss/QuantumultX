@@ -116,7 +116,7 @@ function writeConf() {
         //生成定时脚本配置
         readContent = readContent.replace(
             '[task_local]',
-            `[task_local]\n#${scriptName}\n${cron} ${fileName}.js, tag=${scriptName}, enabled=true\n`
+            `[task_local]\n${cron} ${fileName}.js, tag=${scriptName}, enabled=true\n`
         )
     }
     // 判断重写文件是否存在
@@ -152,7 +152,7 @@ function writeSnippet() {
     if (readUint8Array === undefined) {
         $.error(`读取qx_checkin.snippet文件失败 ❌`);
         $.info(`尝试创建qx_checkin.snippet文件...`);
-        let content = `[rewrite_local]\n${urlRegx} url script-request-body ${fileName}.js\n\n[mitm]\nhostname = ${hostName}`
+        let content = `[rewrite_local]\n#${scriptName} by QuantumultX Checkin\n${urlRegx} url script-request-body ${fileName}.js\n\n[mitm]\nhostname = ${hostName}`
         let textEecoder = new TextEncoder();
         let writeUint8Array = textEecoder.encode(content);
         if ($iCloud.writeFile(writeUint8Array, snippetPath)) {
@@ -171,7 +171,7 @@ function writeSnippet() {
         // 写入rewrite_local
         readContent = readContent.replace(
             '[rewrite_local]',
-            `[rewrite_local]\n${urlRegx} url script-request-body ${fileName}.js\n`
+            `[rewrite_local]\n#${scriptName} by QuantumultX Checkin\n${urlRegx} url script-request-body ${fileName}.js\n`
         );
         // 写入mitm
         readContent = readContent.replace(
