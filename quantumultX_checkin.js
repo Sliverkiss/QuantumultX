@@ -38,12 +38,12 @@ const $ = new Env(moduleName);
 // 读取脚本传入参数
 $.arguments = getArguments();
 // 优先级: 脚本内 > 脚本外部传入
-$.name = scriptName || $.arguments?.scriptName || moduleName;
-$.ckName = ckName || $.arguments?.ckName || "slivekriss777";
-$.bodyRegx = bodyRegx || $.arguments?.bodyRegx;
-$.resultPath = resultPath || $.arguments?.resultPath;
-$.accountIndex = parseInt(accountIndex || $.arguments?.accountIndex) || 0;
-$.userCookie = $.arguments?.account || [];
+$.name = scriptName || moduleName;
+$.ckName = ckName || "slivekriss777";
+$.bodyRegx = bodyRegx;
+$.resultPath = resultPath;
+$.accountIndex = parseInt(accountIndex) || 0;
+$.userCookie = $.getjson(ckName) || [];
 //用户多账号配置
 $.succCount = 0, $.notifyMsg = [];
 //主程序执行入口
