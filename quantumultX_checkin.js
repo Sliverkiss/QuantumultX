@@ -30,7 +30,7 @@ const scriptName = "";// 脚本名称
 const ckName = "";// 变量名称
 const resultPath = "";//响应体读取路径
 const bodyRegx = "";// 获取ck是否需要匹配body，默认留空
-const accountIndex = '';//账号数组下标，第一个账号为0
+const accountIndex = 0;//账号数组下标，第一个账号为0
 
 // ----------- 固定不动区域 -----------
 const moduleName = "QuantmultX CheckIn";
@@ -52,7 +52,6 @@ $.succCount = 0, $.notifyMsg = [];
         if (typeof $request != "undefined") {
             await getCookie();
         } else {
-            await getNotice();
             await main();
         }
     } catch (e) {
