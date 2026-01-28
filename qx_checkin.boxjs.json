@@ -7,7 +7,7 @@
   "apps": [
     {
       "id": "Sliverkiss_QuantumultX_Checkin",
-      "name": "Quantumult 生成签到脚本",
+      "name": "Quantumult Checkin",
       "keys": [
         "@sliverkiss_qx.confPath",
         "@sliverkiss_qx.ckName",
@@ -29,13 +29,15 @@
           "val": "",
           "type": "text",
           "desc": "填入签到请求的url"
-        },{
+        },
+        {
           "id": "@sliverkiss_qx.cron",
           "name": "脚本定时",
           "val": "",
           "type": "text",
           "desc": "填入要生成脚本的定时表达式"
-        },{
+        },
+        {
           "id": "@sliverkiss_qx.scriptName",
           "name": "脚本名称",
           "val": "",
@@ -71,6 +73,6 @@
         "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Quantumult_X.png",
         "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Quantumult_X.png"
       ]
-    },
+    }
   ]
 }
