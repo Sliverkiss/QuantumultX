@@ -37,14 +37,14 @@ const getCookieUrl = $.getdata("@sliverkiss_qx.getCookieUrl") || "https://cdp.my
 //主程序执行入口
 !(async () => {
     try {
-        //if (getCookieUrl && confPath && ckName && scriptName && fileName) {
-        if (!writeConf()) {
-            await writeScript();
-            writeSnippet();
-        };
-        // } else {
-        //     $.error("Boxjs配置未填写完整，停止运行脚本")
-        // }
+        if (getCookieUrl && confPath && ckName && scriptName && fileName) {
+            if (!writeConf()) {
+                await writeScript();
+                writeSnippet();
+            };
+        } else {
+            $.error("Boxjs配置未填写完整，停止运行脚本")
+        }
     } catch (e) {
         throw e;
     }
