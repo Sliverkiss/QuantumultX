@@ -74,6 +74,16 @@ async function writeScript() {
         "url": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/heads/main/quantumultX_checkin.js",
         "method": "get"
     })
+    // 脚本名称
+    scriptConetent = scriptConetent.replace(
+        'const scriptName = \"\"',
+        `const scriptName = \"${scriptName}\"`
+    )
+    // ck名称
+    scriptConetent = scriptConetent.replace(
+        'const ckName = \"\"',
+        `const ckName = \"${ckName}\"`
+    )
 
     let scriptFilePath = `../Scripts/${fileName}.js`
     let encoder = new TextEncoder();
@@ -102,20 +112,29 @@ function writeConf() {
     //判断脚本文件是否已存在
     if (new RegExp(`${scriptName}`).test(readContent)) {
         $.warn(`该task脚本已存在,跳过[${confPath}]配置文件 ⚠️`);
-        return;
+    } else {
+        //生成定时脚本配置
+        readContent = readContent.replace(
+            '[task_local]',
+            `[task_local]\n#${scriptName}\n${cron} ${fileName}.js, tag=${scriptName}, enabled=true\n`
+        )
     }
-    //生成定时脚本配置
-    readContent = readContent.replace(
-        '[task_local]',
-        `[task_local]\n#${scriptName}\n${cron} ${fileName}.js#ckName=${ckName}&scriptName=${scriptName}, tag=${scriptName}, enabled=true\n`
-    )
+    // 判断重写文件是否存在
+    if (new RegExp(`QuantmultX Checkin @sliverkiss`).test(readContent)) {
+        $.warn(`该rewrite重写,跳过[${confPath}]配置文件 ⚠️`);
+    } else {
+        readContent = readContent.replace(
+            '[rewrite_remote]',
+            `[rewrite_remote]\nqx_checkin.snippet, tag=QuantmultX Checkin @sliverkiss, update-interval=172800, opt-parser=true, enabled=true\n`
+        )
+    }
     // 写入原来配置
     let textEncoder = new TextEncoder();
     let writeUint8Array = textEncoder.encode(readContent);
     if ($iCloud.writeFile(writeUint8Array, confFullPath)) {
-        $.error(`脚本写入[${confPath}]配置文件成功 ✅`);
+        $.error(`刷新[${confPath}]配置文件成功 ✅`);
     } else {
-        $.error(`脚本写入[${confPath}]配置文件失败 ❌`);
+        $.error(`刷新[${confPath}]配置文件失败 ❌`);
         return true;
     }
 }
@@ -133,7 +152,7 @@ function writeSnippet() {
     if (readUint8Array === undefined) {
         $.error(`读取qx_checkin.snippet文件失败 ❌`);
         $.info(`尝试创建qx_checkin.snippet文件...`);
-        let content = `[rewrite_local]\n${urlRegx} url script-request-body ${fileName}.js#ckName=${ckName}&scriptName=${scriptName}\n\n[mitm]\nhostname = ${hostName}`
+        let content = `[rewrite_local]\n${urlRegx} url script-request-body ${fileName}.js\n\n[mitm]\nhostname = ${hostName}`
         let textEecoder = new TextEncoder();
         let writeUint8Array = textEecoder.encode(content);
         if ($iCloud.writeFile(writeUint8Array, snippetPath)) {
@@ -152,7 +171,7 @@ function writeSnippet() {
         // 写入rewrite_local
         readContent = readContent.replace(
             '[rewrite_local]',
-            `[rewrite_local]\n${urlRegx} url script-request-body ${fileName}.js#ckName=${ckName}&scriptName=${scriptName}\n`
+            `[rewrite_local]\n${urlRegx} url script-request-body ${fileName}.js\n`
         );
         // 写入mitm
         readContent = readContent.replace(
