@@ -31,20 +31,20 @@ const ckName = $.getdata("@sliverkiss_qx.ckName") || "test_data";// 脚本ck名�
 const scriptName = $.getdata("@sliverkiss_qx.scriptName") || "测试";// 脚本名称
 const fileName = $.getdata("@sliverkiss_qx.fileName") || "hello";// 脚本文件名
 const cron = $.getdata("@sliverkiss_qx.cron") || "0 9 * * *";//脚本定时
-const getCookieUrl = $.getdata("@sliverkiss_qx.getCookieUrl");// 获取ck的url
+const getCookieUrl = $.getdata("@sliverkiss_qx.getCookieUrl")||"https://cdp.myfoodiepet.com/tnew/myfoodiepet-member/v1/member/sign";// 获取ck的url
 
 
 //主程序执行入口
 !(async () => {
     try {
-        if (getCookieUrl && confPath && ckName && scriptName && fileName) {
+        //if (getCookieUrl && confPath && ckName && scriptName && fileName) {
             if (!writeConf()) {
                 await writeScript();
                 writeSnippet();
             };
-        } else {
-            $.error("Boxjs配置未填写完整，停止运行脚本")
-        }
+        // } else {
+        //     $.error("Boxjs配置未填写完整，停止运行脚本")
+        // }
     } catch (e) {
         throw e;
     }
@@ -121,7 +121,7 @@ function writeConf() {
     }
     // 判断重写文件是否存在
     if (new RegExp(`QuantmultX Checkin @sliverkiss`).test(readContent)) {
-        $.warn(`该rewrite重写,跳过[${confPath}]配置文件 ⚠️`);
+        $.warn(`该rewrite重写已存在,跳过[${confPath}]配置文件 ⚠️`);
     } else {
         readContent = readContent.replace(
             '[rewrite_remote]',
