@@ -29,6 +29,5 @@ $configuration
         headers: okHeaders,
         body: "good"
     };
-$done(okResponse);
-    $done();
+  $done(okResponse);
   });
