@@ -1,5 +1,5 @@
 /*
-http://slightly.qx/kill url script-echo-response switchMode.js
+http://slightly.qx/kill url script-echo-response https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/heads/main/Script/switchMode.js
 
 hostname=slightly.qx
 */
