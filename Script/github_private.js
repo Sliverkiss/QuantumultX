@@ -1,6 +1,6 @@
 /*
 [http_backend]
-github_private.js, tag=Github访问私库, path=^/Sliverkiss/, enabled=true
+https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/heads/main/Script/github_private.js#token=填入githubToken, tag=Github访问私库, path=^/填入github用户名，区分大小写/, enabled=true
 
 */
 const { token } = getParams();
