@@ -12,13 +12,11 @@ const { token } = getParams();
         url: `https://raw.githubusercontent.com${$request.path}`,
         method: "GET",
         headers: {
-            "Authorization": `token ${GH_TOKEN}`,
+            "Authorization": `token ${token}`,
         }
     };
 
     $task.fetch(req).then((response) => {
-        console.log(response.body)
-        console.log($request.path)
         $done({
             status: `HTTP/1.1 200 OK`,
             headers: {
