@@ -10,8 +10,8 @@ event-interaction https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/
     let ip = await getIP();
     if (!ip) throw new Error("<p>❌ 查询落地节点ip失败</p>");
 
-    writeConf(confName);
-    writeSnippet(ip, groupName);
+    writeConf(confName, groupName);
+    writeSnippet(ip);
 
     $done({ "title": "Proxy Chain", "htmlMessage": `<font color=#CD5C5C><b>节点</b> ➟ ${ip} </font></p>` })
 })().catch(e => $done({
@@ -46,7 +46,7 @@ function getParams() {
 }
 
 // 写入配置文件
-function writeConf(confPath) {
+function writeConf(confPath, groupName) {
     let confFullPath = `../Profiles/${confPath}.conf`
     let readUint8Array = $iCloud.readFile(confFullPath);
 
@@ -65,7 +65,7 @@ function writeConf(confPath) {
     } else {
         readContent = readContent.replace(
             '[filter_remote]',
-            `[filter_remote]\nproxy_chain.snippet, tag=Proxy Clain @filter, force-policy=兜底分流, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true\n`
+            `[filter_remote]\nproxy_chain.snippet, tag=Proxy Clain @filter, force-policy=${groupName}, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true\n`
         )
     }
     // 写入原来配置
