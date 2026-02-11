@@ -6,7 +6,9 @@ event-interaction https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/
     // 获取节点ip
     const { confName, groupName } = getParams();
     if (!(confName && groupName)) throw new Error("<p>❌ 未传入参数confName或proxyGroup</p>");
-
+    console.lgo(JSON.stringify(getParams()))
+    console.log(confName);
+    console.log(groupName);
     let ip = await getIP();
     if (!ip) throw new Error("<p>❌ 查询落地节点ip失败</p>");
 
