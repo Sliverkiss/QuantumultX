@@ -6,6 +6,7 @@ event-interaction https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/
     // 获取节点ip
     const { confName, groupName } = getParams();
     if (!(confName && groupName)) throw new Error("<p>❌ 未传入参数confName或proxyGroup</p>");
+    console.log(JSON.stringify($environment))
     console.lgo(JSON.stringify(getParams()))
     console.log(confName);
     console.log(groupName);
@@ -16,10 +17,13 @@ event-interaction https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/
     writeSnippet(ip);
 
     $done({ "title": "Proxy Chain", "htmlMessage": `<font color=#CD5C5C><b>节点</b> ➟ ${ip} </font></p>` })
-})().catch(e => $done({
-    "title": "Proxy Clain",
-    "htmlMessage": e,
-}));
+})().catch(e => {
+    console.log(e);
+    $done({
+        "title": "Proxy Clain",
+        "htmlMessage": e,
+    })
+});
 
 
 // 查询节点ip
