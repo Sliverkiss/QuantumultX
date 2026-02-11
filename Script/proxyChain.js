@@ -1,15 +1,15 @@
 /*
 [task_local]
-event-interaction https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/heads/main/Script/proxyChain.js#confName=配置文件名称&groupName=兜底策略名称, tag=代理链, img-url=network.system, enabled=true
+event-interaction https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/heads/main/Script/proxyChain.js#confName=配置文件名称&groupName=中转策略名称, tag=代理链, img-url=network.system, enabled=true
 */
 (async () => {
     // 获取节点ip
     const { confName, groupName } = getParams();
-    if (!(confName && groupName)) throw new Error("<p>❌ 未传入参数confName或proxyGroup</p>");
     console.log(JSON.stringify($environment))
-    console.lgo(JSON.stringify(getParams()))
+    console.log(JSON.stringify(getParams()))
     console.log(confName);
     console.log(groupName);
+    if (!(confName && groupName)) throw new Error("<p>❌ 未传入参数confName或proxyGroup</p>");
     let ip = await getIP();
     if (!ip) throw new Error("<p>❌ 查询落地节点ip失败</p>");
 
@@ -76,10 +76,10 @@ function writeConf(confPath, groupName) {
         )
     }
     //替换final
-    readContent = readContent.replace(
-        'final',
-        `final,${$environment.params},via-interface=%TUN%\n`
-    )
+    // readContent = readContent.replace(
+    //     'final',
+    //     `final,${$environment.params},via-interface=%TUN%\n`
+    // )
 
     // 写入原来配置
     let textEncoder = new TextEncoder();
