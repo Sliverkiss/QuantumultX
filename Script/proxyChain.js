@@ -5,11 +5,11 @@ event-interaction https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/
 (async () => {
     // 获取节点ip
     const { confName, groupName } = getParams();
+    if (!(confName && groupName)) throw new Error("<p>❌ 未传入参数confName或proxyGroup</p>");
     console.log(JSON.stringify($environment))
     console.lgo(JSON.stringify(getParams()))
     console.log(confName);
     console.log(groupName);
-    if (!(confName && groupName)) throw new Error("<p>❌ 未传入参数confName或proxyGroup</p>");
     let ip = await getIP();
     if (!ip) throw new Error("<p>❌ 查询落地节点ip失败</p>");
 
@@ -45,7 +45,8 @@ async function getIP() {
 
 // 读取环境变量
 function getParams() {
-    const sourceUrl = new URL($environment.sourcePath);
+    const sourcePath = $environment.sourcePath;
+    const sourceUrl = new URL(sourcePath);
     const sourceHash = sourceUrl.hash;
     const scriptParams = new URLSearchParams(sourceHash.substring(1));
     return scriptParams;
@@ -74,6 +75,12 @@ function writeConf(confPath, groupName) {
             `[filter_remote]\nproxy_chain.snippet, tag=Proxy Clain @filter, force-policy=${groupName}, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true\n`
         )
     }
+    //替换final
+    readContent = readContent.replace(
+        'final',
+        `final,${$environment.params},via-interface=%TUN%\n`
+    )
+
     // 写入原来配置
     let textEncoder = new TextEncoder();
     let writeUint8Array = textEncoder.encode(readContent);
