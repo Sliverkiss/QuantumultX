@@ -46,11 +46,12 @@ async function getIP() {
 // 读取环境变量
 function getParams() {
     const sourcePath = $environment.sourcePath;
-    const sourceUrl = new URL(sourcePath);
-    const sourceHash = sourceUrl.hash;
-    const scriptParams = new URLSearchParams(sourceHash.substring(1));
+    const [, form] = sourcePath.split("#");
+    const scriptParams = UrlToJson(form);
     return scriptParams;
 }
+
+function UrlToJson(data) { let tempArr = data.split(`&`); let obj = {}; for (let item of tempArr) { let itemInfo = item.split(`=`); let _key = itemInfo[0]; let _value = decodeURIComponent(itemInfo[1]); obj[`${_key}`] = _value }; return obj };
 
 // 写入配置文件
 function writeConf(confPath, groupName) {
