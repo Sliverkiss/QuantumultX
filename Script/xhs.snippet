@@ -1,5 +1,5 @@
 ^https:\/\/so\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/notes url jsonjq-response-body '.data.items |= map(select(.note?.type == "normal"))'
 
-^https:\/\/rec\.xiaohongshu\.com\/api\/sns\/v\d+\/homefeed url jsonjsq-response-body '.data |= map(select(.type == "normal"))'
+^https:\/\/rec\.xiaohongshu\.com\/api\/sns\/v\d+\/homefeed url jsonjq-response-body '.data |= map(select(.type == "normal"))'
 
 hostname= *.xiaohongshu.com
