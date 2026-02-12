@@ -1,22 +1,27 @@
 /*
 [task_local]
-event-interaction https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/heads/main/Script/proxyChain.js#confName=配置文件名称&groupName=中转策略名称, tag=代理链, img-url=network.system, enabled=true
+event-interaction https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/heads/main/Script/proxyChain.js#confName=配置文件名称, tag=代理链, img-url=network.system, enabled=true
+
+参数:
+- confName: 配置文件名称
+- groupName: 策略组名称
+- NodeName: 节点名称
 */
 (async () => {
     // 获取节点ip
-    const { confName, groupName } = getParams();
-    console.log(JSON.stringify($environment))
-    console.log(JSON.stringify(getParams()))
-    console.log(confName);
-    console.log(groupName);
-    if (!(confName && groupName)) throw new Error("<p>❌ 未传入参数confName或proxyGroup</p>");
-    let ip = await getIP();
-    if (!ip) throw new Error("<p>❌ 查询落地节点ip失败</p>");
+    const { confName, groupName = "direct", NodeName } = getParams();
 
-    writeConf(confName, groupName);
-    writeSnippet(ip);
+    if (!confName) throw new Error(`<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: thin>❌ 未传入参数confName或proxyGroup</p>`);
 
-    $done({ "title": "Proxy Chain", "htmlMessage": `<font color=#CD5C5C><b>节点</b> ➟ ${ip} </font></p>` })
+    let ip = await getIP(NodeName);
+    if (!ip) throw new Error(`<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: thin>❌ 查询落地节点ip失败</p>`);
+
+    let writeResult = writeConf(confName, groupName);
+    if (!writeResult) {
+        writeSnippet(ip);
+    }
+
+    $done({ "title": "Proxy Chain", "htmlMessage": `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: thin"><font color=#CD5C5C><b>节点</b> ➟ ${ip} </font></p>` })
 })().catch(e => {
     console.log(e);
     $done({
@@ -27,12 +32,12 @@ event-interaction https://raw.githubusercontent.com/Sliverkiss/QuantumultX/refs/
 
 
 // 查询节点ip
-async function getIP() {
+async function getIP(NodeName) {
     try {
         let { body: data } = await $task.fetch({
             "url": "https://my.ippure.com/v1/info",
             "opts": {
-                policy: $environment.params
+                policy: $environment.params || NodeName
             },
             "timeout": 4000
         })
@@ -76,11 +81,6 @@ function writeConf(confPath, groupName) {
             `[filter_remote]\nproxy_chain.snippet, tag=Proxy Clain @filter, force-policy=${groupName}, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true\n`
         )
     }
-    //替换final
-    // readContent = readContent.replace(
-    //     'final',
-    //     `final,${$environment.params},via-interface=%TUN%\n`
-    // )
 
     // 写入原来配置
     let textEncoder = new TextEncoder();
