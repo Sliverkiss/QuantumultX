@@ -1,3 +1,4 @@
+#bilibili 阻止缓存
 HOST-SUFFIX, upos-sz-staticcos.bilivideo.com
 HOST-SUFFIX, appdl-1-drcn.dbankcdn.com  
 HOST-SUFFIX, data.bilibili.com
