@@ -1,0 +1,38 @@
+/*
+#!name=起点读书去广告（终极整合｜单脚本版）
+#!desc=整合 app2smile + LKS + ForestofTime：去开屏/每日导读/活动弹窗/悬浮广告/tab广告/章末模块/搜索热词等，并精简“我的”页面；另外移除书架底部“书城找书/找书”入口。
+#!author=app2smile, luestr(可莉🅥), ForestofTime, merged-by-copilot
+#!date=2026-03-02
+*/
+
+# 开屏、deeplink、每日导读、tab广告、悬浮广告、getconf 清理（含书城找书/找书）、我的页面、toolbar
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/(v4\/client\/getsplashscreen|v2\/(deeplink\/geturl|dailyrecommend\/getdailyrecommend)|v1\/(client\/getconf$|bookshelf\/getHoverAdv|adv\/getadvlistbatch\?positions=iOS_tab|assembly\/toolbar)|v3\/user\/getaccountpage) url script-response-body https://raw.githubusercontent.com/ForestofTime/Surge/refs/heads/main/JS/qidian_getconf_filter.js
+
+# 开屏（兜底）
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v4\/client\/getsplashscreen\? url reject-dict
+# v1/adv/ 广告接口（兜底）
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/adv\/ url reject-dict
+# AB/实验
+^https:\/\/ywab\.reader\.qq\.com\/user\/experiments\/v2\? url reject-dict
+# 签到信息（可能影响签到展示，介意可自行注释）
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/checkin\/simpleinfo\? url reject-dict
+# 弹窗/对话框
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/push\/getdialog\? url reject-dict
+# 推送消息列表
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/message\/getpushedmessagelist$ url reject-dict
+# 运营条
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/maintain\/playstrip$ url reject-dict
+# 书架「猜你喜欢」
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/dailyrecommend\/recommendBook\? url reject-dict
+# 新手书架按钮
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/freshman\/bookshelfbtn$ url reject-dict
+# 书架置顶推广
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/bookshelf\/getTopOperation$ url reject-dict
+# 搜索热词
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/booksearch\/hotWords\? url reject-dict
+# 章末模块（文末推广/推荐位）
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/followsubscribe\/showChapterEndModule\? url reject-dict
+# 青少年模式配置
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/young\/getconf$ url reject-dict
+
+hostname = magev6.if.qidian.com, ywab.reader.qq.com
